@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using CommonDS;
-using UnityEngine.InputSystem.Users;
+using System.Collections.Generic;
+using System;
 
 namespace InputManagement
 {
-
-
     public class InputManager : Singleton<InputManager>
     {
         #region PRIVATE_SERIALIZED_VARS
@@ -16,6 +15,9 @@ namespace InputManagement
 
         #region PRIVATE_VARS
         private InputActionMap activeInputMap = null;
+        private List<Action> onSwitchedToGamepad = new();
+        private List<Action> onSwtichedToKeyboard = new();
+        private List<Action> onSwtichedToTouchpad = new();
         #endregion
 
 
@@ -37,15 +39,31 @@ namespace InputManagement
         public override void Awake()
         {
             base.Awake();
-            deviceIdentityHandler.Init(inputActionAsset);
+            InitializeDeviceIdentityHandler();
             SwitchMapTo(Constants.InputConstants.Player); //TODO Handle this every UI change.
         }
+
+
         #endregion
 
         #region PRIVATE_METHODS
         private InputActionMap FindActionMap(string inputMapName)
         {
             return inputActionAsset.FindActionMap(inputMapName, true);
+        }
+
+        private void InitializeDeviceIdentityHandler()
+        {
+            deviceIdentityHandler.Init(inputActionAsset,
+                               () => { Invokee(onSwitchedToGamepad); },
+                               () => { Invokee(onSwtichedToKeyboard); },
+                               () => { Invokee(onSwtichedToTouchpad); });
+        }
+
+        private void Invokee(List<Action> actions)
+        {
+            for (int i = 0; i < actions.Count; i++)
+                actions[i].Invoke();
         }
         #endregion
 
@@ -56,6 +74,37 @@ namespace InputManagement
             activeInputMap?.Disable();
             activeInputMap = FindActionMap(inputMapName);
             activeInputMap.Enable();
+        }
+
+
+        public void RegisterOnSwitchedToGamepad(Action action)
+        {
+            onSwitchedToGamepad.Add(action);
+        }
+
+        public void RegisterOnSwitchedToKeyboard(Action action)
+        {
+            onSwtichedToKeyboard.Add(action);
+        }
+
+        public void RegisterOnSwitchedToTouch(Action action)
+        {
+            onSwtichedToTouchpad.Add(action);
+        }
+
+        public void DeregisterOnSwitchedToGamepad(Action action)
+        {
+            onSwitchedToGamepad.Remove(action);
+        }
+
+        public void DeregisterOnSwitchedToKeyboard(Action action)
+        {
+            onSwtichedToKeyboard.Remove(action);
+        }
+
+        public void DeregisterOnSwitchedToTouch(Action action)
+        {
+            onSwtichedToTouchpad.Remove(action);
         }
         #endregion
 

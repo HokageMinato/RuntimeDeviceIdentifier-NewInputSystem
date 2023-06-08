@@ -1,5 +1,5 @@
 {
-    "name": "InputManagement.EditorUtils.EditorUtils",
+    "name": "InputManagement.EditorUtils",
     "rootNamespace": "InputManagement.EditorUtils",
     "references": [
         "GUID:8474ee1b40eb0ef41b766eb3873995c3"

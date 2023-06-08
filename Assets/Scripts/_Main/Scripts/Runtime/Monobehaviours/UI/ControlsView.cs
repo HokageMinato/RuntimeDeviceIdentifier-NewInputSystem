@@ -1,109 +1,88 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
-using TMPro;
-using InputManagement;
 
-public class ControlsView : MonoBehaviour
+
+namespace InputManagement
 {
-    #region PRIVATE_SERIALIZED_VARS
-    #endregion
-
-
-    #region PRIVATE_VARS
-    #endregion
-
-
-    #region PRIVATE_PROPERTIES
-    #endregion
-
-
-    #region PUBLIC_VARS
-    #endregion
-
-
-    #region PUBLIC_PROPERTIES
-    #endregion
-
-
-    #region UNITY_CALLBAKCS
-
-    void Awake()
+    public class ControlsView : MonoBehaviour
     {
-        DeviceIdentityHandler.RegisterOnSwitchedToGamepad(OnSwitchedToNonTouchDevice);
-        DeviceIdentityHandler.RegisterOnSwitchedToKeyboard(OnSwitchedToNonTouchDevice);
-        DeviceIdentityHandler.RegisterOnSwitchedToTouch(OnSwitchedToTouchDevice);
-    }
-
-    void OnEnable()
-    {
-
-    }
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
-
-    void OnDisable()
-    {
-
-    }
-
-    void OnDestroy()
-    {
-
-    }
-
-    #endregion
+        #region PRIVATE_SERIALIZED_VARS
+        #endregion
 
 
-    #region CONSTRUCTOR
-    #endregion
+        #region PRIVATE_VARS
+        #endregion
 
 
-    #region PRIVATE_METHODS
-    private void OnSwitchedToNonTouchDevice() 
-    { 
-        
-    }
-    
-    private void OnSwitchedToTouchDevice() 
-    { 
-        
-    }
-    #endregion
+        #region PRIVATE_PROPERTIES
+        #endregion
 
 
-    #region PUBLIC_METHODS
-    #endregion
+        #region PUBLIC_VARS
+        #endregion
 
 
-    #region EVENT_CALLBACKS
-    #endregion
+        #region PUBLIC_PROPERTIES
+        #endregion
 
 
-    #region COROUTINES
-    #endregion
+        #region UNITY_CALLBAKCS
 
-    #region UI_CALLBACKS
-    #endregion
+        void Start()
+        {
+            InputManager.Instance.RegisterOnSwitchedToGamepad(OnSwitchedToNonTouchDevice);
+            InputManager.Instance.RegisterOnSwitchedToKeyboard(OnSwitchedToNonTouchDevice);
+            InputManager.Instance.RegisterOnSwitchedToTouch(OnSwitchedToTouchDevice);
+        }
 
-    #region INNERCLASS_DEFINITIONS
-    #endregion
+        #endregion
 
 
-    #region EDITOR_ACCESSORS_OR_HELPERS
+        #region CONSTRUCTOR
+        #endregion
+
+
+        #region PRIVATE_METHODS
+        private void OnSwitchedToNonTouchDevice()
+        {
+            ToggleView(true);
+        }
+
+        private void OnSwitchedToTouchDevice()
+        {
+            ToggleView(false);
+        }
+
+        private void ToggleView(bool value) 
+        {
+            gameObject.SetActive(value);
+        }
+        #endregion
+
+
+        #region PUBLIC_METHODS
+        #endregion
+
+
+        #region EVENT_CALLBACKS
+        #endregion
+
+
+        #region COROUTINES
+        #endregion
+
+        #region UI_CALLBACKS
+        #endregion
+
+        #region INNERCLASS_DEFINITIONS
+        #endregion
+
+
+        #region EDITOR_ACCESSORS_OR_HELPERS
 #if UNITY_EDITOR
 
 #endif
-    #endregion
+        #endregion
 
+    }
 }

@@ -1,9 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Debug = UnityEngine.Debug;
 
 namespace InputManagement
 {
@@ -15,20 +13,37 @@ namespace InputManagement
 
 
         #region PRIVATE_VARS
-        private InputActionAsset inputActionAsset;
-        private Dictionary<InputControl, InputBinding> inputControlEffectivePathCache = new();
-        private static Dictionary<int, SUPPORTED_DEVICE_TYPE> gamepadDevicesDictCache = new();
-        private static Dictionary<int, SUPPORTED_DEVICE_TYPE> keyboardDevicesDictCache = new();
-        private static Dictionary<int, SUPPORTED_DEVICE_TYPE> touchScreenDeviceDictCache = new();
+        private static bool IsClassifierReady = false;
+
+        private static string OnScreenTag = "OnScreen";
+        private static string KeyBoard = "keyboard";
+        private static string GamePad = "gamepad";
+        private static string TouchscreenPad = "touchscreenpad";
+        private static string TouchScreen = "touchscreen";
+        private static string Mousee = "mouse";
 
 
-        private static List<Action> onSwitchedToGamepad = new();
-        private static List<Action> onSwtichedToKeyboard = new();
-        private static List<Action> onSwtichedToTouchpad = new();
+        private static InputActionAsset myInputActionAsset;
+        private static Dictionary<InputControl, InputBinding> inputControlEffectivePathCache = new();
+        private static List<Dictionary<int, int>> deviceClassificationDicts = new();
+
+
+        private static int presentDevice = (int)DEVICE_CLASSIFICATION.TOUCHSCREEN;
+        private static Action OnSwitchedToGamepad;
+        private static Action OnSwtichedToKeyboard;
+        private static Action OnSwtichedToTouch;
+
         #endregion
 
 
         #region PRIVATE_PROPERTIES
+        private static Dictionary<int, int> GamepadDevicesDictCache => deviceClassificationDicts[(int)DEVICE_CLASSIFICATION.GAMEPAD];
+        private static Dictionary<int, int> KeyboardDevicesDictCache => deviceClassificationDicts[(int)DEVICE_CLASSIFICATION.KEYBOARD];
+        private static Dictionary<int, int> TouchScreenDeviceDictCache => deviceClassificationDicts[(int)DEVICE_CLASSIFICATION.TOUCHSCREEN];
+
+        /// <summary>
+        /// Add your dictCache property here or simply access according to the indexed Enumerated Value of DEVICECLASSIFICATION.
+        /// </summary>
         #endregion
 
 
@@ -41,7 +56,6 @@ namespace InputManagement
 
 
         #region UNITY_CALLBAKCS
-
         void OnEnable()
         {
             ToggleInputMethodChangeLister(true);
@@ -53,10 +67,29 @@ namespace InputManagement
         }
         #endregion
 
+
         #region CONSTRUCTOR
-        public void Init(InputActionAsset inputActionAsset)
+
+        public void Init(InputActionAsset inputActionAsset, Action onSwitchedToGamepad, Action onSwtichedToKeyboard, Action onSwtichedToTouchpad)
         {
-            this.inputActionAsset = inputActionAsset;
+            myInputActionAsset = inputActionAsset;
+            OnSwitchedToGamepad = onSwitchedToGamepad;
+            OnSwtichedToKeyboard = onSwtichedToKeyboard;
+            OnSwtichedToTouch = onSwtichedToTouchpad;
+
+            GenerateDeviceRepresentationDict();
+        }
+
+        private void GenerateDeviceRepresentationDict()
+        {
+            string[] values = Enum.GetNames(typeof(DEVICE_CLASSIFICATION));
+            for (int i = 0; i < values.Length; i++)
+            {
+                var deviceCacheDict = new Dictionary<int, int>();
+                deviceClassificationDicts.Add(deviceCacheDict);
+            }
+
+            IsClassifierReady = true;
         }
         #endregion
 
@@ -75,12 +108,32 @@ namespace InputManagement
             }
         }
 
-        private void InputSystem_onDeviceChange(InputDevice arg1, InputDeviceChange arg2)
-        {
-            CheckForCacheInvalidation(arg1,arg2);
-        }
 
         private void InputSystem_onActionChange(object actionObject, InputActionChange actionStatus)
+        {
+            if (actionStatus != InputActionChange.ActionPerformed || !IsClassifierReady)
+                return;
+
+            DetectHardware(actionObject);
+        }
+
+
+        private void InputSystem_onDeviceChange(InputDevice device, InputDeviceChange deviceChangeType)
+        {
+            bool isCacheInvalidationRequried = (deviceChangeType == InputDeviceChange.UsageChanged ||
+                                    deviceChangeType == InputDeviceChange.ConfigurationChanged ||
+                                    deviceChangeType == InputDeviceChange.Disconnected);
+
+            if (isCacheInvalidationRequried)
+            {
+                InvalidateCache();
+                Debug.Log($"<color=red>Input Cache Invalidated, reason {device} : {deviceChangeType}</color>");
+            }
+
+        }
+
+
+        private void DetectHardware(object actionObject)
         {
             InputAction action = (actionObject as InputAction);
             InputControl control = action?.activeControl;
@@ -89,15 +142,14 @@ namespace InputManagement
             if (currentDevice == null || action == null)
                 return;
 
-            //most effective method without noise
-            bool isValidControl;
             InputBinding binding;
-            
-            isValidControl = MatchInputControlPathFast(control, out binding);
 
-            if (isValidControl)
+            //PrintControlData(control);
+            //PrintDeviceUsages(currentDevice);
+
+            if (MatchInputControlPathFast(control, out binding))
             {
-                PerformDeviceSchemeSwitch(action, currentDevice, binding);
+                PerformDeviceSchemeSwitch(currentDevice);
                 return;
             }
 
@@ -105,9 +157,11 @@ namespace InputManagement
             {
                 AddToInputControlBindingPathCache(control, binding);
                 TryMapUnresolvedInput(currentDevice, binding);
-                PerformDeviceSchemeSwitch(action, currentDevice, binding);
+                PerformDeviceSchemeSwitch(currentDevice);
             }
         }
+
+
 
         private bool MatchInputControlPathFast(InputControl control, out InputBinding bindingResult)
         {
@@ -116,37 +170,38 @@ namespace InputManagement
             return res;
         }
 
-        private static void PerformDeviceSchemeSwitch(InputAction action, InputDevice currentDevice, InputBinding binding)
+        private static void PerformDeviceSchemeSwitch(InputDevice currentDevice)
         {
-            //Debug.Log($"Binding {binding.effectivePath}, {binding.name} , {currentDevice.name} ,did:{currentDevice.deviceId} , {action.activeControl}");
-
-            if (IsGamepad(currentDevice))
+            if ((IsTouchPad(currentDevice)) && presentDevice != TOUCHSCREEN)
             {
-                Debug.Log("GAMEPAD");
-                InvokeActions(onSwitchedToGamepad);
+                Debug.Log($"present: {DEVICE_CLASSIFICATION.TOUCHSCREEN} prev {(DEVICE_CLASSIFICATION)presentDevice}");
+                presentDevice = TOUCHSCREEN;
+                InvokeActions(OnSwtichedToTouch);
                 return;
             }
 
-            if (IsKeyboard(currentDevice))
+            if (IsGamepad(currentDevice) && presentDevice != GAMEPAD)
             {
-                Debug.Log("Keyboard");
-                InvokeActions(onSwtichedToKeyboard);
+                Debug.Log($"present {DEVICE_CLASSIFICATION.GAMEPAD} prev {(DEVICE_CLASSIFICATION)presentDevice}");
+                presentDevice = GAMEPAD;
+                InvokeActions(OnSwitchedToGamepad);
                 return;
             }
 
-            if (IsTouchPad(currentDevice))
+            if (IsKeyboard(currentDevice) && presentDevice != KEYBOARD)
             {
-                Debug.Log("TouchPad");
-                InvokeActions(onSwtichedToTouchpad);
+                Debug.Log($"present {DEVICE_CLASSIFICATION.KEYBOARD}  prev {(DEVICE_CLASSIFICATION)presentDevice}");
+                presentDevice = KEYBOARD;
+                InvokeActions(OnSwtichedToKeyboard);
                 return;
             }
 
-            
+            ///Extend your representations here.
         }
 
         private bool MatchInputControlPathFull(InputControl control, out InputBinding bindingResult)
         {
-            foreach (var binding in inputActionAsset.bindings)
+            foreach (var binding in myInputActionAsset.bindings)
             {
                 if (InputControlPath.Matches(binding.effectivePath, control))
                 {
@@ -161,139 +216,150 @@ namespace InputManagement
 
         private void AddToInputControlBindingPathCache(InputControl control, InputBinding binding)
         {
-            Debug.Log($"Added to Cache{control.device.name}");
+            Debug.Log($"Added to Cache {control.device.name}");
             inputControlEffectivePathCache.Add(control, binding);
         }
 
         private static void TryMapUnresolvedInput(InputDevice currentDevice, InputBinding binding)
         {
-            if (TryMapAsGamepad(currentDevice, binding, gamepadDevicesDictCache))
-                return;
-            if (TryMapAsKeyboard(currentDevice, binding, keyboardDevicesDictCache))
-                return;
-            if (TryMapAsTouchpad(currentDevice, binding, touchScreenDeviceDictCache))
-                return;
-        }
-
-        private static bool TryMapAsGamepad(InputDevice device,InputBinding binding,Dictionary<int,SUPPORTED_DEVICE_TYPE> dictCache)
-        {
-            bool res = (ResolveDevice(SUPPORTED_DEVICE_TYPE.GAMEPAD, device, binding, dictCache));
-            
-            if(res)    
-                Debug.Log($"Resolved AS {SUPPORTED_DEVICE_TYPE.GAMEPAD}");
-
-            return res;
-        }
-        
-        private static bool TryMapAsKeyboard(InputDevice device,InputBinding binding,Dictionary<int,SUPPORTED_DEVICE_TYPE> dictCache)
-        {
-            bool res = (ResolveDevice(SUPPORTED_DEVICE_TYPE.KEYBOARD, device, binding, dictCache));
-            
-            if(res)
-               Debug.Log($"Resolved AS {SUPPORTED_DEVICE_TYPE.KEYBOARD}");
-            
-            return res;
-        }
-
-        private static bool TryMapAsTouchpad(InputDevice device, InputBinding binding, Dictionary<int, SUPPORTED_DEVICE_TYPE> dictCache)
-        {
-            bool res = ResolveDevice(SUPPORTED_DEVICE_TYPE.TOUCHSCREENPAD, device, binding, dictCache);
-          
-            if (res)
-                Debug.Log($"Resolved As {SUPPORTED_DEVICE_TYPE.TOUCHSCREENPAD}");
-            
-            return res;
-        }
-
-
-        private static bool ResolveDevice(SUPPORTED_DEVICE_TYPE supportType,InputDevice device, InputBinding binding, Dictionary<int, SUPPORTED_DEVICE_TYPE> dictCache)
-        {
-            string loweredEffectivePath = binding.effectivePath.ToLower();
-            string loweredSupportedDevId = supportType.ToString().ToLower();
-            int deviceId = device.deviceId;
-
-            //Debug.Log($"CONTAINER {loweredEffectivePath} SUPPDEV {loweredSupportedDevId}");
-
-            if (loweredEffectivePath.Contains(loweredSupportedDevId) && !dictCache.ContainsKey(deviceId))
+            if (TryMapAsGamepad(currentDevice, binding))
             {
-                dictCache.Add(deviceId, supportType);
-                return true;
+                Debug.Log("Mapped as gamepad");
+                return;
             }
+
+            if (TryMapAsKeyboard(currentDevice, binding))
+            {
+                Debug.Log("Mapped as keyboard");
+                return;
+            }
+
+            if (TryMapAsTouchpad(currentDevice, binding))
+            {
+                Debug.Log("Mapped as touchpad");
+                return;
+            }
+        }
+
+        private static bool TryMapAsGamepad(InputDevice device, InputBinding binding)
+        {
+            if (!IsEmulatedOnScreen(device))
+            {
+                return TryResolveDevice(deviceName: GamePad, mapToDevice: DEVICE_CLASSIFICATION.GAMEPAD, device, binding, GamepadDevicesDictCache);
+            }
+
             return false;
         }
 
-        private static bool IsGamepad(InputDevice currentDevice) 
+        private static bool TryMapAsKeyboard(InputDevice device, InputBinding binding)
         {
-            return IsInDeviceIdCache(currentDevice, gamepadDevicesDictCache);
-        }
-        
-        private static bool IsKeyboard(InputDevice currentDevice) 
-        {
-            return IsInDeviceIdCache(currentDevice, keyboardDevicesDictCache);
-        }
-        
-        private static bool IsTouchPad(InputDevice currentDevice) 
-        {
-            return IsInDeviceIdCache(currentDevice, touchScreenDeviceDictCache);
+            bool res = TryResolveDevice(deviceName: KeyBoard, mapToDevice: DEVICE_CLASSIFICATION.KEYBOARD, device, binding, KeyboardDevicesDictCache);
+            Debug.Log($"{IsEmulatedOnScreen(device)} -^^^- {res}");
+
+            if (!IsEmulatedOnScreen(device))
+            {
+                return res;
+            }
+
+            return false;
         }
 
-        private static bool IsInDeviceIdCache(InputDevice device,Dictionary<int,SUPPORTED_DEVICE_TYPE> dictCache) 
+        private static bool TryMapAsTouchpad(InputDevice device, InputBinding binding)
+        {
+            ///This is where actual remapping occurs
+            ///Make sure to provice propernames and the device they are mapped to.
+            ///Based on this the cache will be generated.
+
+            if (!IsEmulatedOnScreen(device))
+            {
+                if (TryResolveDevice(deviceName: TouchscreenPad, mapToDevice: DEVICE_CLASSIFICATION.TOUCHSCREEN, device, binding, TouchScreenDeviceDictCache))
+                    return true;
+
+                if (TryResolveDevice(deviceName: TouchScreen, mapToDevice: DEVICE_CLASSIFICATION.TOUCHSCREEN, device, binding, TouchScreenDeviceDictCache))
+                    return true;
+
+                if (TryResolveDevice(deviceName: Mousee, mapToDevice: DEVICE_CLASSIFICATION.TOUCHSCREEN, device, binding, TouchScreenDeviceDictCache))
+                    return true;
+            }
+
+            if (IsEmulatedOnScreen(device))
+            {
+                Debug.Log($"{device.name} MAPPING AS EMULATED");
+
+                if (TryResolveDevice(deviceName: GamePad, mapToDevice: DEVICE_CLASSIFICATION.TOUCHSCREEN, device, binding, TouchScreenDeviceDictCache))
+                    return true;
+
+                if (TryResolveDevice(deviceName: KeyBoard, mapToDevice: DEVICE_CLASSIFICATION.TOUCHSCREEN, device, binding, TouchScreenDeviceDictCache))
+                    return true;
+            }
+
+            return false;
+        }
+
+
+        private static bool IsEmulatedOnScreen(InputDevice device)
+        {
+            foreach (var usages in device.usages)
+                if (usages.ToString().Contains(OnScreenTag))
+                    return true;
+
+            return false;
+        }
+
+        private static bool TryResolveDevice(string deviceName, DEVICE_CLASSIFICATION mapToDevice, InputDevice device, InputBinding binding, Dictionary<int, int> dictCache)
+        {
+            string loweredEffectivePath = binding.effectivePath.ToLower();
+            string loweredDeviceName = deviceName;
+            int deviceId = device.deviceId;
+            bool resolveSuccesful = false;
+
+            if (loweredEffectivePath.Contains(loweredDeviceName) && !dictCache.ContainsKey(deviceId))
+            {
+                dictCache.Add(deviceId, (int)mapToDevice);
+                resolveSuccesful = true;
+            }
+
+            Debug.Log($"CONTAINER {loweredEffectivePath} SUPPDEVID {loweredDeviceName} CLASSTYP {device.GetType()} RESOLVED AS {((resolveSuccesful) ? mapToDevice : "Unsuccesful")} CacheStatus: PATHCONTAINSCHECK {loweredEffectivePath.Contains(loweredDeviceName)}   DICTCONTAINTSCHECK {dictCache.ContainsKey(deviceId)}");
+            return resolveSuccesful;
+        }
+
+        private static bool IsGamepad(InputDevice currentDevice)
+        {
+            return IsInDeviceIdCache(currentDevice, GamepadDevicesDictCache);
+        }
+
+        private static bool IsKeyboard(InputDevice currentDevice)
+        {
+            return IsInDeviceIdCache(currentDevice, KeyboardDevicesDictCache);
+        }
+
+        private static bool IsTouchPad(InputDevice currentDevice)
+        {
+            return IsInDeviceIdCache(currentDevice, TouchScreenDeviceDictCache);
+        }
+
+        private static bool IsInDeviceIdCache(InputDevice device, Dictionary<int, int> dictCache)
         {
             return dictCache.ContainsKey(device.deviceId);
         }
 
-        private static void InvokeActions(List<Action> invokees) 
+        private static void InvokeActions(Action invokees)
         {
-            for (int i = 0; i < invokees.Count; i++)
-                invokees[i]();
+            Debug.Log($"INVOKEDD");
+            invokees?.Invoke();
         }
 
-        private void CheckForCacheInvalidation(InputDevice device,InputDeviceChange deviceChangeType)
+        private void InvalidateCache()
         {
-            bool invalidateCache = (deviceChangeType == InputDeviceChange.UsageChanged ||
-                                    deviceChangeType == InputDeviceChange.ConfigurationChanged);
-
-            if (invalidateCache)
-            {
-                inputControlEffectivePathCache.Clear();
-                gamepadDevicesDictCache.Clear();
-                keyboardDevicesDictCache.Clear();
-                touchScreenDeviceDictCache.Clear();
-                Debug.Log($"<color=red>Input Cache Invalidated, reason {device} : {deviceChangeType}</color>");
-            }
+            inputControlEffectivePathCache.Clear();
+            GamepadDevicesDictCache.Clear();
+            KeyboardDevicesDictCache.Clear();
+            TouchScreenDeviceDictCache.Clear();
         }
         #endregion
 
         #region PUBLIC_METHODS
-        public static void RegisterOnSwitchedToGamepad(Action action) 
-        { 
-            onSwitchedToGamepad.Add(action);
-        }
-        
-        public static void RegisterOnSwitchedToKeyboard(Action action) 
-        {
-            onSwtichedToKeyboard.Add(action);
-        }
-        
-        public static void RegisterOnSwitchedToTouch(Action action) 
-        {
-            onSwtichedToTouchpad.Add(action);
-        }
-        
-        public static void DeregisterOnSwitchedToGamepad(Action action) 
-        { 
-            onSwitchedToGamepad.Remove(action);
-        }
-        
-        public static void DeregisterOnSwitchedToKeyboard(Action action) 
-        {
-            onSwtichedToKeyboard.Remove(action);
-        }
-        
-        public static void DeregisterOnSwitchedToTouch(Action action) 
-        {
-            onSwtichedToTouchpad.Remove(action);
-        }
+
         #endregion
 
 
@@ -310,18 +376,61 @@ namespace InputManagement
 
 
         #region INNERCLASS_DEFINITIONS
-        public enum SUPPORTED_DEVICE_TYPE 
-        { 
-            TOUCHSCREENPAD,
-            GAMEPAD,
-            KEYBOARD
+        /// <summary>
+        /// DEFINE YOUR CLASSIFICATIONS HERE.
+        /// THESE DENOTE THE REPRESENTATION
+        /// YOU WANT INSTEAD OF PHYSICAL/VIRUTAL/EMULATED DEVICES PRESENTED BY UNITY.
+        ///
+        /// Constants declaration is optional, but since the comparision occurs every input dispatch,
+        /// it is preferrable.
+        /// </summary>
+
+        private const int TOUCHSCREEN = (int)DEVICE_CLASSIFICATION.TOUCHSCREEN;
+        private const int GAMEPAD = (int)DEVICE_CLASSIFICATION.GAMEPAD;
+        private const int KEYBOARD = (int)DEVICE_CLASSIFICATION.KEYBOARD;
+
+        public enum DEVICE_CLASSIFICATION
+        {
+            TOUCHSCREEN = 0,
+            GAMEPAD = 1,
+            KEYBOARD = 2,
         }
         #endregion
 
 
         #region EDITOR_ACCESSORS_OR_HELPERS
-        #if UNITY_EDITOR
-        #endif
+
+        private static void PrintDeviceUsages(InputDevice currentDevice)
+        {
+            string all = $"DEVICE DATA: ";
+            foreach (var item in InputSystem.devices)
+            {
+                string st = $"{item.name}:\n";
+                foreach (var usages in item.usages)
+                {
+                    st += $" {usages} \n";
+                }
+                all += $"{st} \n ----------";
+            }
+
+            string stt = $"{currentDevice.name}:";
+            foreach (var usages in currentDevice.usages)
+            {
+                stt += $"{usages} \n";
+            }
+
+
+            Debug.Log($"All {all} -- {currentDevice.name} -- Current:{stt}");
+        }
+
+        private static void PrintControlData(InputControl control)
+        {
+            Debug.Log("<color=red>----------------------------------------------------------------------------------------------------------------------------</color>");
+            Debug.Log($"fIdx{Time.frameCount} CONTROL {control.name} -- {control.device.name} -- {control.device.displayName}");
+        }
+
+#if UNITY_EDITOR
+#endif
         #endregion
 
 
