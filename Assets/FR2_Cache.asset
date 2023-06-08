@@ -1,0 +1,6331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933e0cc22e789714c87e348a699023d7, type: 3}
+  m_Name: FR2_Cache
+  m_EditorClassIdentifier: 
+  _autoRefresh: 0
+  _curCacheVersion: 2.0
+  _disabled: 0
+  AssetList:
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000002000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: InputManager.asset
+    m_assetPath: ProjectSettings/InputManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 9754
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1684305631
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000003000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: TagManager.asset
+    m_assetPath: ProjectSettings/TagManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 378
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000004000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: ProjectSettings.asset
+    m_assetPath: ProjectSettings/ProjectSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 24187
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686113072
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000006000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: AudioManager.asset
+    m_assetPath: ProjectSettings/AudioManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 413
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000007000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: TimeManager.asset
+    m_assetPath: ProjectSettings/TimeManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 202
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000008000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: DynamicsManager.asset
+    m_assetPath: ProjectSettings/DynamicsManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1254
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000009000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: QualitySettings.asset
+    m_assetPath: ProjectSettings/QualitySettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 4933
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1685509009
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: d0e2fc18fe036412f8223b3b3d9ad574
+      ids: 72000000
+    - guid: e1260c1148f6143b28bae5ace5e9c5d1
+      ids: 72000000
+    - guid: 7b7fd9122c28c4d15b667c7040e3b3fd
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000b000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: EditorBuildSettings.asset
+    m_assetPath: ProjectSettings/EditorBuildSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 355
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686046044
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: 7759de288f5d4ee449a0ca5e2244944a
+      ids: 
+    - guid: 6ee6e3ddf3de99246a7805894036fbf2
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000c000000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: EditorSettings.asset
+    m_assetPath: ProjectSettings/EditorSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1531
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1684128531
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000004100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: NavMeshAreas.asset
+    m_assetPath: ProjectSettings/NavMeshAreas.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1308
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000005100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: Physics2DSettings.asset
+    m_assetPath: ProjectSettings/Physics2DSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 2028
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000006100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: GraphicsSettings.asset
+    m_assetPath: ProjectSettings/GraphicsSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 2588
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1684477895
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: 7b7fd9122c28c4d15b667c7040e3b3fd
+      ids: 72000000
+    - guid: 18dc0cd2c080841dea60987a38ce93fa
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 00000000000000007100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: ClusterInputManager.asset
+    m_assetPath: ProjectSettings/ClusterInputManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 114
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000a100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: UnityConnectSettings.asset
+    m_assetPath: ProjectSettings/UnityConnectSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 943
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686113043
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000b100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: PresetManager.asset
+    m_assetPath: ProjectSettings/PresetManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 146
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000c100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: VFXManager.asset
+    m_assetPath: ProjectSettings/VFXManager.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 308
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000d100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: VersionControlSettings.asset
+    m_assetPath: ProjectSettings/VersionControlSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 188
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0000000000000000f100000000000000
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: MemorySettings.asset
+    m_assetPath: ProjectSettings/MemorySettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1192
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838710
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 10e03e6e0b60fd04cbe436f56356e27e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: icons_skills_runningstrike.png
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/icons_skills_runningstrike.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 23317
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 407bc68d299748449bbf7f48ee690f8d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMPro.cginc
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMPro.cginc
+    m_cacheStamp: 2
+    m_extension: .cginc
+    m_fileInfoHash: 
+    m_fileSize: 2277
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 6000c99975711fb4293b1047ef421ffe
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: ICONS128.psd
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/ICONS128.psd
+    m_cacheStamp: 2
+    m_extension: .psd
+    m_fileInfoHash: 
+    m_fileSize: 979076
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 707360a9c581a4bd7aa53bfeb1429f71
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: URP-Performant-Renderer.asset
+    m_assetPath: Assets/Settings/URP/Settings/URP-Performant-Renderer.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1854
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686218480
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 709f11a7f3c4041caa4ef136ea32d874
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/
+    m_assetName: Settings
+    m_assetPath: Assets/Settings/URP/Settings
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686218480
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: a6560a915ef98420e9faacc1c7438823
+      ids: 
+    - guid: e634585d5c4544dd297acaee93dc2beb
+      ids: 
+    - guid: e1260c1148f6143b28bae5ace5e9c5d1
+      ids: 
+    - guid: c40be3174f62c4acf8c1216858c64956
+      ids: 
+    - guid: 7b7fd9122c28c4d15b667c7040e3b3fd
+      ids: 
+    - guid: 707360a9c581a4bd7aa53bfeb1429f71
+      ids: 
+    - guid: d0e2fc18fe036412f8223b3b3d9ad574
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8026b5758968d7244baa2a43151b7240
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing run left.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      run left.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 713006
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a02a7d8c237544f1962732b55a9aebf1
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF-Mobile Overlay.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 7643
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d0603b6d5186471b96c778c3949c7ce2
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/
+    m_assetName: Sprites
+    m_assetPath: Assets/TextMesh Pro/Sprites
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 381dcb09d5029d14897e55f98031fca5
+      ids: 
+    - guid: 8f05276190cf498a8153f6cbe761d4e6
+      ids: 
+    - guid: dffef66376be4fa480fb02b19edbe903
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d0e2fc18fe036412f8223b3b3d9ad574
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: URP-Performant.asset
+    m_assetPath: Assets/Settings/URP/Settings/URP-Performant.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 3465
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686113043
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: 707360a9c581a4bd7aa53bfeb1429f71
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 413431bce08e40f44b4110240fc6f20f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing run forward.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      run forward.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 899431
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 512a49d95c0c4332bdd98131869c23c9
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/
+    m_assetName: Sprite Assets
+    m_assetPath: Assets/TextMesh Pro/Resources/Sprite Assets
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: c41005c129ba4d66911b75229fd70b45
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a109301d540142f4ab4284bbbb0a6e67
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/
+    m_assetName: Locomotion
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: c256dab57c654ac4b864f973aa8198b8
+      ids: 
+    - guid: 775a74dc3a21a8a45822ed4ab6fc5597
+      ids: 
+    - guid: 3aa60b9a9e4b2254881bd386345cc3a9
+      ids: 
+    - guid: c628550170d02b2458155d4595d220c0
+      ids: 
+    - guid: 2d7c4bcecc8e2944a866f08509787050
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c11077b798aefc546b7fd5a9d6fca0aa
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/
+    m_assetName: Longbow Girl
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 4564475d47d53374f9adfd96d3ccd14a
+      ids: 
+    - guid: 5aa154c9d1d81be4dbfe9860faa2f16b
+      ids: 
+    - guid: 78655c4b463da4f4f802867806d7a8ed
+      ids: 
+    - guid: d623e2843ee11354e8fc388efe435976
+      ids: 
+    - guid: e57e729f1fb064d4a8562eed3d22cd11
+      ids: 
+    - guid: b2eb533e3d7219f4ba7e15464de68a37
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d18445d91cf195240ac718ccaf85e49a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing walk forward.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      walk forward.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 445010
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d16666e6283945b40be1564160898651
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: Demo.unity
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/Demo.unity
+    m_cacheStamp: 2
+    m_extension: .unity
+    m_fileInfoHash: 
+    m_fileSize: 80242
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 3
+    UseGUIDsList:
+    - guid: ee3f5ed514abc5c47a83ed1c54a519c0
+      ids: 
+    - guid: dc609ed06ad96334b99034f63f3072ec
+      ids: d5000000
+    - guid: 10e03e6e0b60fd04cbe436f56356e27e
+      ids: d5000000
+    - guid: bcef3bb3e863a0b47bc29230664c187c
+      ids: d5000000
+    - guid: e17203397c1e765488076e2eacf65116
+      ids: d5000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e17203397c1e765488076e2eacf65116
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: icons_skills_punisher.png
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/icons_skills_punisher.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 24583
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e1260c1148f6143b28bae5ace5e9c5d1
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: URP-Balanced.asset
+    m_assetPath: Assets/Settings/URP/Settings/URP-Balanced.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 3462
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686113043
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: e634585d5c4544dd297acaee93dc2beb
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 128e987d567d4e2c824d754223b3f3b0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_Bitmap.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 3499
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 22038b2c16b237542b15fca20b533588
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Scripts/Runtime/
+    m_assetName: Simple Mover.cs
+    m_assetPath: Assets/_gym/Scripts/Runtime/Simple Mover.cs
+    m_cacheStamp: 0
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 5143
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: b2eb533e3d7219f4ba7e15464de68a37
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/
+    m_assetName: Textures
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Textures
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 9fefb55bd12064c4984d34f2aea37abd
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c256dab57c654ac4b864f973aa8198b8
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/
+    m_assetName: standing idle 01.fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/standing
+      idle 01.fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 573105
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: c256dab57c654ac4b864f973aa8198b8
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 131a6b21c8605f84396be9f6751fb6e3
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: Demo
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/Demo
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: c448dd6df9eba47b2a84342bf9d8c5b5
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 731f1baa9d144a9897cb1d341c2092b8
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/
+    m_assetName: Fonts & Materials
+    m_assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: e73a58f6e2794ae7b1b7e50b7fb811b0
+      ids: 
+    - guid: 2e498d1c8094910479dc3e1b768306a4
+      ids: 
+    - guid: 79459efec17a4d00a321bdcc27bbc385
+      ids: 
+    - guid: 8f586378b4e144a9851e7b34d9b748ee
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c334973cef89a9840b0b0c507e0377ab
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMPro_Mobile.cginc
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    m_cacheStamp: 2
+    m_extension: .cginc
+    m_fileInfoHash: 
+    m_fileSize: 5311
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e3265ab4bf004d28a9537516768c1c75
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Fonts/
+    m_assetName: LiberationSans.ttf
+    m_assetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    m_cacheStamp: 2
+    m_extension: .ttf
+    m_fileInfoHash: 
+    m_fileSize: 350200
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 14eb328de4b8eb245bb7cea29e4ac00b
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF SSD.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 12000
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 243e06394e614e5d99fab26083b707fa
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/
+    m_assetName: Resources
+    m_assetPath: Assets/TextMesh Pro/Resources
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: fade42e8bc714b018fac513c043d323b
+      ids: 
+    - guid: d82c1b31c7e74239bff1220585707d2b
+      ids: 
+    - guid: 3f5b5dff67a942289a9defa416b206f3
+      ids: 
+    - guid: 731f1baa9d144a9897cb1d341c2092b8
+      ids: 
+    - guid: 512a49d95c0c4332bdd98131869c23c9
+      ids: 
+    - guid: 4aecb92fff08436c8303b10eab8da368
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 34ecf51bcd3f4424eafda7dafd885bd0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Art/
+    m_assetName: Bars_Unity.png
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Art/Bars_Unity.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 620776
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 446352a420a048246b363aee0934c27e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/
+    m_assetName: 3 [Ultimate].fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/3
+      [Ultimate].fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 699616
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: 446352a420a048246b363aee0934c27e
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c41005c129ba4d66911b75229fd70b45
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/Sprite Assets/
+    m_assetName: EmojiOne.asset
+    m_assetPath: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 13441
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1594242383
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: cf81c85f95fe47e1a27f6ae460cf182c
+      ids: 30000000
+    - guid: dffef66376be4fa480fb02b19edbe903
+      ids: 1c000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c448dd6df9eba47b2a84342bf9d8c5b5
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/Demo/
+    m_assetName: Gray_scene.unity
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/Demo/Gray_scene.unity
+    m_cacheStamp: 2
+    m_extension: .unity
+    m_fileInfoHash: 
+    m_fileSize: 692688
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 3
+    UseGUIDsList:
+    - guid: 34ecf51bcd3f4424eafda7dafd885bd0
+      ids: d5000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c469b22d2ecda9f4ea2f6a0f358fe63a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/
+    m_assetName: Attacks
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 8fb4c59477e532144b76b93a2cff5214
+      ids: 
+    - guid: 5a24932d481baf344a2be97aad58724e
+      ids: 
+    - guid: ba97ce1d45beec34686a81b721683dcc
+      ids: 
+    - guid: 446352a420a048246b363aee0934c27e
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c40be3174f62c4acf8c1216858c64956
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: URP-HighFidelity-Renderer.asset
+    m_assetPath: Assets/Settings/URP/Settings/URP-HighFidelity-Renderer.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 2531
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1684128530
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4564475d47d53374f9adfd96d3ccd14a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/
+    m_assetName: Animation FBX
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: c469b22d2ecda9f4ea2f6a0f358fe63a
+      ids: 
+    - guid: a109301d540142f4ab4284bbbb0a6e67
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 55b036d76a7b1f34bb6e711add133b89
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Materials/
+    m_assetName: Akai_MAT.mat
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Materials/Akai_MAT.mat
+    m_cacheStamp: 2
+    m_extension: .mat
+    m_fileInfoHash: 
+    m_fileSize: 3947
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList:
+    - guid: 9fefb55bd12064c4984d34f2aea37abd
+      ids: 1c000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 85187c2149c549c5b33f0cdb02836b17
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF-Surface-Mobile.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 3524
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e57e729f1fb064d4a8562eed3d22cd11
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/
+    m_assetName: Model
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Model
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 770f848a43f436949bfe172dc02598a6
+      ids: 
+    - guid: d8490122d2177364f9011466dcda9a10
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f54d1bd14bd3ca042bd867b519fee8cc
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: TextMesh Pro
+    m_assetPath: Assets/TextMesh Pro
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 8e7e8f5a82a3a134e91c54efd2274ea9
+      ids: 
+    - guid: 6ab70aee4d56447429c680537fbf93ed
+      ids: 
+    - guid: 243e06394e614e5d99fab26083b707fa
+      ids: 
+    - guid: e9f693669af91aa45ad615fc681ed29f
+      ids: 
+    - guid: d0603b6d5186471b96c778c3949c7ce2
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a6560a915ef98420e9faacc1c7438823
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: SampleSceneProfile.asset
+    m_assetPath: Assets/Settings/URP/Settings/SampleSceneProfile.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 2803
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838713
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c628550170d02b2458155d4595d220c0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/
+    m_assetName: standing walk back.fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/standing
+      walk back.fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 390737
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: c628550170d02b2458155d4595d220c0
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d623e2843ee11354e8fc388efe435976
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/
+    m_assetName: Materials
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Materials
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 55b036d76a7b1f34bb6e711add133b89
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e634585d5c4544dd297acaee93dc2beb
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: URP-Balanced-Renderer.asset
+    m_assetPath: Assets/Settings/URP/Settings/URP-Balanced-Renderer.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 2476
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1670838713
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 07390d7755866594a8f3cba5ddbb711f
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: Settings
+    m_assetPath: Assets/Settings
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: bc7f54579c2126d4dbdd47a33af7dd88
+      ids: 
+    - guid: 696bc640120818a4fbd72c88328af6f7
+      ids: 
+    - guid: c9e77abd242b52946b272f5e169bbaa6
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 27de1899b5ce11f4883457171f761c9c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: _gym
+    m_assetPath: Assets/_gym
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 7759de288f5d4ee449a0ca5e2244944a
+      ids: 
+    - guid: 571d7498830e3b240a029f5752939f2c
+      ids: 
+    - guid: edfabfa4ebe13fc4ea4c49419f42f97c
+      ids: 
+    - guid: dd55464c6fb4f454aa4244aeb7384a51
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7759de288f5d4ee449a0ca5e2244944a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/
+    m_assetName: City Scene.unity
+    m_assetPath: Assets/_gym/City Scene.unity
+    m_cacheStamp: 2
+    m_extension: .unity
+    m_fileInfoHash: 
+    m_fileSize: 17724366
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 3
+    UseGUIDsList:
+    - guid: 2693a75b9cc71fb4bae0674a2e512e59
+      ids: 15000000
+    - guid: 1e67a5e3bae3ce9489dcdc9c5830c140
+      ids: 60040000
+    - guid: 6396e3f3c98748446861aa99c61de5c3
+      ids: 
+    - guid: 0509744eed6f16e4c98e542f790a84b5
+      ids: e9030000
+    - guid: f48ca42bbf7370343a33a9e87b1d9fdb
+      ids: e9030000
+    - guid: e53777a03d3be324ab0664ab7ef3d886
+      ids: e9030000
+    - guid: abc98a3329f924b4680c86edde08968d
+      ids: e9030000
+    - guid: 7446a392a730ac14d9cc70d21cf7ace0
+      ids: e9030000
+    - guid: 8ca0a36b96d9a434b8fb9fc9a5d87b27
+      ids: e9030000
+    - guid: b4289919ba517cd45aff629c81afa3fe
+      ids: e9030000
+    - guid: f24cfa7ea7c5c764dad9dddadf04cde2
+      ids: e9030000
+    - guid: 7c311e85b96e43d4aaaf68e86c127195
+      ids: e9030000
+    - guid: effb1b31d7e11a54e9b051312c1a2ee4
+      ids: e9030000
+    - guid: b0bb4b9691721cf4791e1124d867edd8
+      ids: e9030000
+    - guid: bb22ea4214c77784c96ecc3cb6bc0608
+      ids: e9030000
+    - guid: 41d11e3e0e39b2f4cab83de47b0be2fb
+      ids: 15000000
+    - guid: 3900d928ccec44041bdd0c3d50026c02
+      ids: 2b000000
+    - guid: 3793ad411fa918d4685c2c4c1494c970
+      ids: e9030000
+    - guid: a56a9ff0410540141a4b57353191a959
+      ids: e9030000
+    - guid: 21a7832e115724d42974d61698102f71
+      ids: e9030000
+    - guid: cc198c66ba240c946b6f10f40c60795a
+      ids: e9030000
+    - guid: a9da80f587bbf9046aefc4a4cfb8a7fc
+      ids: e9030000
+    - guid: 1be61187b5d765449be824463642cb0f
+      ids: e9030000
+    - guid: adb55fed5a5012b458c398a0b618390c
+      ids: e9030000
+    - guid: c469c07c5b45c454db32065c2f59b36b
+      ids: e9030000
+    - guid: 2224b63330275e5478ef024b2913f937
+      ids: e9030000
+    - guid: 391ef46e275c80b408f222be809688a5
+      ids: 2b000000
+    - guid: 89fe3a699dd66bb47a36a1874a4430f5
+      ids: 15000000
+    - guid: d15d3707ee72e6e4992de2448a2bfccb
+      ids: e9030000
+    - guid: 5a525eed3adce3248bcfd773cab5d126
+      ids: e9030000
+    - guid: 6c59ef0028580ac429571adf93ff0a16
+      ids: e9030000
+    - guid: a0c9730978f0d194c9b79ac6b6aa2c60
+      ids: e9030000
+    - guid: 0222be6389069a24db934273f2a9f031
+      ids: e9030000
+    - guid: 0a804f15ce1f1d34eabed72f25b3d732
+      ids: e9030000
+    - guid: 48c232ddc1938bc40b73a1685a1672b1
+      ids: e9030000
+    - guid: e3ee9b4631379bf44b7e076739afa41e
+      ids: e9030000
+    - guid: c1a6c832f3b6e494d80a048d5e7ff3e1
+      ids: e9030000
+    - guid: 5b37bebced2befa4cb0fa7e92016e465
+      ids: 2b000000
+    - guid: ade4d9b3b14d5b045884be40b327deb1
+      ids: 15000000
+    - guid: 5188c7492ef51d143a7128aa9700788a
+      ids: 15000000
+    - guid: 3f544eaa13dc7074cba3aed998b27842
+      ids: e9030000
+    - guid: 6825a3fe8a1605f42a0d0589e582ac40
+      ids: e9030000
+    - guid: f8d7a78846ea16e40a90f85d3e26d338
+      ids: e9030000
+    - guid: 107e21d49b4ce0043a91771c91ae6c8c
+      ids: e9030000
+    - guid: ad77b71bebe086d48ab3d1cd35b2746b
+      ids: e9030000
+    - guid: 72e65272e9752d842a914dd27fd86306
+      ids: 2b000000
+    - guid: e392b3db3896de742a7fe9186046092b
+      ids: 15000000
+    - guid: b1fb400995a0fe641bd3e5fdfb630751
+      ids: e9030000
+    - guid: e27f1e8036aa32748b6e0aff27468160
+      ids: e9030000
+    - guid: ff7206cbdafefa144bb8ac229bf9046e
+      ids: e9030000
+    - guid: 589a02648855e174db02b948c97d6321
+      ids: e9030000
+    - guid: 3744e668ae9047e4b9590c326355161c
+      ids: e9030000
+    - guid: 7f788b3ac76896b459c93cf4d673fa57
+      ids: e9030000
+    - guid: ef0db6475b65e3f4caf48f2481a05f13
+      ids: e9030000
+    - guid: 28f59ecb5ee7e2a4a9060e22ad8bc84f
+      ids: e9030000
+    - guid: 984e7c3587655ac489a642619bb3ef24
+      ids: e9030000
+    - guid: 721f9aeb18a56f644828aa93a686bcd3
+      ids: e9030000
+    - guid: 7c09194ef6a23a947948e105b6da62b2
+      ids: e9030000
+    - guid: 3efcc829b17627b42be7c2557c91a937
+      ids: e9030000
+    - guid: f5b753a0f2ae4e3448b73f8f56e8c157
+      ids: e9030000
+    - guid: 64c8858bb5c72b0449860f828a7a54fa
+      ids: e9030000
+    - guid: 6f78f527e43206b408b73d96ccdbea2a
+      ids: e9030000
+    - guid: 9cf6fe41a87aee14499e9aa67b6e1e2b
+      ids: e9030000
+    - guid: 09c381fe7eb215142a85dbabe00ae5b6
+      ids: e9030000
+    - guid: 6b24ffcfe69c69248a5197ca61cb57bf
+      ids: e9030000
+    - guid: 9390e70d13c7e454f8022d50d0112dc7
+      ids: e9030000
+    - guid: 625d4ab1ce4723c449f165b8e7f27de1
+      ids: e9030000
+    - guid: 9256d77e61c437a4a9afb333ff47af4d
+      ids: e9030000
+    - guid: f2a4c4a6f1e89a74a995f3108da5be04
+      ids: e9030000
+    - guid: 883cf758fdbaad44fbf987329131dbfb
+      ids: e9030000
+    - guid: 59f2f37d570039d41891cb6cb0bf2011
+      ids: e9030000
+    - guid: 9cb5b35ecfd548b4d87e1c513764ef5b
+      ids: e9030000
+    - guid: 5d51484289d125e48b3eecf5fbd4d7c9
+      ids: e9030000
+    - guid: 6ebfc6898dc70814c86bb78d43e72a9c
+      ids: e9030000
+    - guid: 8983c8df5fb12ea4bb76cdf0ef2f9c1b
+      ids: e9030000
+    - guid: 8e00364320862a746a6e67a5af5e5979
+      ids: e9030000
+    - guid: 8974ac32dde6fd848bebffb7724a1aeb
+      ids: e9030000
+    - guid: 792fa418de0281e4bab622f9a60c88b2
+      ids: 15000000
+    - guid: 4752f864e3118e64482c22f7a8d21b01
+      ids: e9030000
+    - guid: 8e03c81bd030d824c99304a858b8a18c
+      ids: e9030000
+    - guid: a560b249e984af144b222ea1d93fe697
+      ids: e9030000
+    - guid: ebaffde1b4ae7fb47849063a9a520747
+      ids: e9030000
+    - guid: dd28fe4d5eb7bcb479b5338f128cdf70
+      ids: e9030000
+    - guid: bcef3bb3e863a0b47bc29230664c187c
+      ids: d5000000
+    - guid: 0d994adf9f1bb3048b05c73f76d42756
+      ids: e9030000
+    - guid: 331560f2206dc024cb084301a19c05ad
+      ids: e9030000
+    - guid: 5617f09499355b14bb58fe8aeb052d7e
+      ids: e9030000
+    - guid: 12ba3d1ec135f1b4e9caddc7e211dd72
+      ids: e9030000
+    - guid: da131c3960b4e724fb46f9a6b2dee647
+      ids: 
+    - guid: 45374165b7b045b498462bc2d3987a31
+      ids: e9030000
+    - guid: d55339d5a4e0b8f41a0448068bd26f4e
+      ids: e9030000
+    - guid: 770f848a43f436949bfe172dc02598a6
+      ids: e9030000
+    - guid: 39c4c8b833bd02743a29bb4024cf7281
+      ids: 73000000
+    - guid: b371324d60f1ca9408481c0bd5f4539d
+      ids: e9030000
+    - guid: 0f1f4c4f42ef5c74c8dd43866325948d
+      ids: e9030000
+    - guid: c954a7e383194f246b3502f6c815acb4
+      ids: e9030000
+    - guid: dbdf3da5684f16d4fb4464f7337c942e
+      ids: e9030000
+    - guid: d3279157e4e75be44a4c862cb4e328a3
+      ids: e9030000
+    - guid: 0e6a4d293ee9b544788962bc66f4b2e9
+      ids: 73000000
+    - guid: b995d8a7dcf811740b66ae5cf81e4fa6
+      ids: e9030000
+    - guid: 4410dff019705d648959a9ceea02bfbb
+      ids: e9030000
+    - guid: 26df91506bf83b343b8083c5322323ae
+      ids: 15000000
+    - guid: 3f3f0ad0013c05f478f38f3920e05817
+      ids: e9030000
+    - guid: b9241325cf17fc546b1db887ded397d9
+      ids: e9030000
+    - guid: 95ad7e2cecb192d43a4a02f1b422beed
+      ids: e9030000
+    - guid: 67086b7e1b4a07246aaebc44c363dcc3
+      ids: e9030000
+    - guid: a48e7d2fc673f7e4ea6df4cffad97a56
+      ids: e9030000
+    - guid: 00330848c56cf3e42aefd14a7ebd14c6
+      ids: e9030000
+    - guid: 34ecf51bcd3f4424eafda7dafd885bd0
+      ids: d5000000
+    - guid: 80c5916b9606ce646be16611d9a06d13
+      ids: e9030000
+    - guid: daa1a100f65deb34787ae1bb55d44a76
+      ids: e9030000
+    - guid: 6654366d45d22054abd260171b0f7c04
+      ids: 15000000
+    - guid: 9db90062b4af0004b94c5754b65e4379
+      ids: 15000000
+    - guid: 1af4b0d855a4f694baba51a55f5c6cc9
+      ids: 15000000
+    - guid: 2100b85841ac32940a50ec36409b49c0
+      ids: 15000000
+    - guid: f9526b7c12770f14aa830082aa6d9b45
+      ids: e9030000
+    - guid: 30916da9dd66da74d8e831f29c0b250f
+      ids: e9030000
+    - guid: b0c71b64a7dfbd74cb2f2acf7a3637a3
+      ids: e9030000
+    - guid: 8f586378b4e144a9851e7b34d9b748ee
+      ids: 7200000015000000
+    - guid: 419d31cd2358c274b93f3ed5fac4773f
+      ids: e9030000
+    - guid: 28d5ea07bacfa6346a6ccb36b5789cae
+      ids: e9030000
+    - guid: 672edbc300fa6bd439cf13ff7878bdea
+      ids: e9030000
+    - guid: 99bdf8c075f79ec499c340f68f8d6ca2
+      ids: e9030000
+    - guid: e698f0d8234b54e419217034d057fe59
+      ids: e9030000
+    - guid: fb63f2d87ad55dd42891f1e2dbfe660d
+      ids: e9030000
+    - guid: 1388611d0c053e54ab3bb60eb6e40eb0
+      ids: e9030000
+    - guid: e5a1a9b64f8e53f489e80aa11edd54b0
+      ids: e9030000
+    - guid: 110af0d3eee946d4d9ee0ca4e522611a
+      ids: e9030000
+    - guid: 493d8fb14af461f45a7d50aaa60a7a37
+      ids: e9030000
+    - guid: 6a21df4da585e0946a2b991447fabcc6
+      ids: e9030000
+    - guid: fc7f1d4af8d817e4f98e42d198325d99
+      ids: e9030000
+    - guid: ac61809f89d132d4b85c3d14a3725846
+      ids: e9030000
+    - guid: 2bf7da734f1a8224fb14055902b5b343
+      ids: e9030000
+    - guid: 334aad2b5d3ce18449f0aac7e90fe56e
+      ids: e9030000
+    - guid: efbec96b2d3e0b5429a2e20c21fdfeda
+      ids: e9030000
+    - guid: 502d6f0e64b66424794fb5bab97b89a9
+      ids: e9030000
+    - guid: 18f25be2998f44b408dcd9ba703fd231
+      ids: e9030000
+    - guid: 3e51558bab861cb4abd5698ff3cc1a4e
+      ids: e9030000
+    - guid: ba471d562324e9c499483b4816ba3be0
+      ids: e9030000
+    - guid: be2c575b59c07d54e937a759af1f404e
+      ids: 2b000000
+    - guid: c4d3a0c81c5ffb34889379e1a1cf85bb
+      ids: 15000000
+    - guid: d7636558dbd50f7429a53d5bc6352a44
+      ids: 15000000
+    - guid: a853a23c8b083df4a88eb2fc76e64a7b
+      ids: e9030000
+    - guid: fce1616653f35b9419598e1570aa8f67
+      ids: 73000000
+    - guid: 662342a1f0535f34db513eb61d76ee9f
+      ids: e9030000
+    - guid: a60988b24f8ff094ba511054edf48a9d
+      ids: e9030000
+    - guid: dc609ed06ad96334b99034f63f3072ec
+      ids: d5000000
+    - guid: 90045d2ccf59b6f45afd8bab908bb038
+      ids: e9030000
+    - guid: 8e333c3d9aca5ec419b24e89d083d1e0
+      ids: e9030000
+    - guid: 6f3dc1314311772438667865ceda9b08
+      ids: e9030000
+    - guid: 1e198ff9400b5064c816d8f779eff296
+      ids: e9030000
+    - guid: ac16a24c584766f4e905adc7db85b93d
+      ids: e9030000
+    - guid: e4485e1bf16c1634eb7efdd39779175d
+      ids: e9030000
+    - guid: 1b917d070ca78d8458d7db3681a2c913
+      ids: e9030000
+    - guid: 28e73319f340c644db3fdb95596c6596
+      ids: e9030000
+    - guid: bcec7c2b0048dfa4582dd821645c76b4
+      ids: e9030000
+    - guid: 5b71bcfe27faa8a4a9ec939bb5377114
+      ids: e9030000
+    - guid: 0b5ab4b8a0e43004ba5e294fbe6cf73a
+      ids: 15000000
+    - guid: 332e08e35cda1b84e8c36c123299b8ac
+      ids: e9030000
+    - guid: a6cd0c657da915144bd367d385c0fc31
+      ids: e9030000
+    - guid: 931ecb32d754b3f40afc9a688c8cea66
+      ids: e9030000
+    - guid: 91155d9f14bc7c24885accb7c3b9025f
+      ids: 15000000
+    - guid: 6f68dfcded674364f8b137702c42898e
+      ids: e9030000
+    - guid: 53a178f42f52a0c4e9fe7bac7f1bfcc3
+      ids: e9030000
+    - guid: 7d569c6acdec3c2428d7b39889d89720
+      ids: e9030000
+    - guid: e495abf6588a1b944a3620fd1fee2b07
+      ids: 15000000
+    - guid: 527a2f1bf2a8e6b44a73711edbc69733
+      ids: 15000000
+    - guid: 8d50894cec04b584c99d0e15c717bf2e
+      ids: 15000000
+    - guid: 7b6b731fe1cb4794496aa07fda2bf67c
+      ids: e9030000
+    - guid: 63708caac38471a45b6ba845efc890e8
+      ids: e9030000
+    - guid: dfad69e67150a0647b6f696171d22428
+      ids: e9030000
+    - guid: 8c68b30c228ba1e478ff2433f4f83ba0
+      ids: 15000000
+    - guid: 10e03e6e0b60fd04cbe436f56356e27e
+      ids: d5000000
+    - guid: f05e5e37b07893d42b4d91839e7299d0
+      ids: e9030000
+    - guid: e70233268e8d3e64187fc14a41cacef0
+      ids: e9030000
+    - guid: 13e171104ed12b849a7bd5e888d86142
+      ids: e9030000
+    - guid: b2f7f9a7651346b46a2e7c96864e7dc4
+      ids: 73000000
+    - guid: 937333d453eaea246af48ac0fc62b5e0
+      ids: e9030000
+    - guid: 971885f35036d834d9e87999c41920fe
+      ids: e9030000
+    - guid: 624f250b25af37343ada3e052b9968b1
+      ids: e9030000
+    - guid: 114ecc4f46a5e4945aeb7c925aafc1ea
+      ids: 73000000
+    - guid: 2da3775d316a3e04da01b3c659ee96db
+      ids: e9030000
+    - guid: 55e3ebb26a70a8c458d618b9d0cf5971
+      ids: e9030000
+    - guid: 1fbdccb55fd15bc4f92646bd818aca51
+      ids: e9030000
+    - guid: 82f4eb25e074d5046be961abf9216a71
+      ids: 2b000000
+    - guid: a6eaccbb2fcd42a44ae956659d71890a
+      ids: 15000000
+    - guid: 9338c70e4379d504695b5390f8421d6c
+      ids: e9030000
+    - guid: 475374e8b1fe09a44a5855a8d902f099
+      ids: e9030000
+    - guid: 445da40af79ed8241871555db3d63e27
+      ids: e9030000
+    - guid: 9d4eff3ec34236147b12cbbb7b994959
+      ids: e9030000
+    - guid: 6767a180de870304caa2013b2772dd62
+      ids: 73000000
+    - guid: 600c02144c4813244abd262cbcbe8825
+      ids: 73000000
+    - guid: 112c6fcf56e349449ab2e6ad76b67816
+      ids: 1c000000
+    - guid: 4623f326a884a2546ab39078bf7822c3
+      ids: 1c000000
+    - guid: 3a6bc61a8319b1949ab9f1f2db1302b4
+      ids: 1c000000
+    - guid: 782e03669fa4a614e89ef56252134250
+      ids: 1c000000
+    - guid: ff4dfb29f203a174ab8e4c498afe908a
+      ids: 1c000000
+    - guid: 2bcdc012e7356f1449ce7d3a31dc458c
+      ids: 1c000000
+    - guid: f447d62f2dacf9843be7cbf168a3a9d0
+      ids: 1c000000
+    - guid: 6c91fc88ee6c791468318d85febfb48d
+      ids: 1c000000
+    - guid: a7561cd0a9f62a84e99bff1abce2a222
+      ids: 1c000000
+    - guid: 90b2f48155dc0e74f8e428561ac79da5
+      ids: 1c000000
+    - guid: 2954bef266e6d794aba08ceacc887a0f
+      ids: 1c000000
+    - guid: 4a4821d80a1fc774fb76eac6213544e7
+      ids: 1c000000
+    - guid: bfef37b5a26d2264798616d960451329
+      ids: 1c000000
+    - guid: 7f36d71624c630046b855909c497be17
+      ids: 1c000000
+    - guid: b65e9be99974bc94eab5d6698811d0b8
+      ids: 1c000000
+    - guid: 8702be598dd9f504ca33be2afee2ca33
+      ids: 1c000000
+    - guid: e9011b1dc9256ad4d9c19a31c595f95f
+      ids: 1c000000
+    - guid: 999d31716332cc04eb4abc9c9270b0ca
+      ids: 1c000000
+    - guid: a0632a18e7c665641b94fea66506ab50
+      ids: 1c000000
+    - guid: e876b803a4dd5c5488078071d15aa9c0
+      ids: 1c000000
+    - guid: 1066be8e7b994b94c8a182b8dbe30705
+      ids: 1c000000
+    - guid: 7640ebf8b3a92124d821d3b4b8b3fd7e
+      ids: 1c000000
+    - guid: 8128d4f4c0193e34586f9631ef7d4787
+      ids: 1c000000
+    - guid: 2580a2e903691e44282e56ed6e0ff37a
+      ids: 1c000000
+    - guid: d27aad55b568c6544b0b95a95da44bc7
+      ids: 1c000000
+    - guid: 8ffbb44a2c3adae45913474e4fd487f5
+      ids: 1c000000
+    - guid: 17117a429b08e7e43b0b6c8421de69fe
+      ids: 1c000000
+    - guid: 1cc68832d00d3284a9324a4dc05be753
+      ids: 72000000
+    - guid: 01bbe20c855564648b02e0092e511cac
+      ids: e9030000
+    - guid: 331204bcfe96d5f4d83f7bdf75ea0873
+      ids: e9030000
+    - guid: 1a0dec1fa084e1b4abd7c6cf33e568ff
+      ids: 15000000
+    - guid: bfc6f79cd64e73d408685f05930b9105
+      ids: 2b000000
+    - guid: 7e628f32de81f4b49a72746359f3dab3
+      ids: 2b000000
+    - guid: 62788775cce139e4abe5fdd7071ead29
+      ids: e9030000
+    - guid: 19427fc607e7e5645a1f1fe831d3add4
+      ids: e9030000
+    - guid: bbad862e7e06efe4a8ad0346a53e3cde
+      ids: e9030000
+    - guid: 7eb437ce89e76c640809f70f15bde317
+      ids: e9030000
+    - guid: 84bb406b82cecb24cb1ffe5d4359339d
+      ids: e9030000
+    - guid: b8c04fd14b199f34a802353a72a0af44
+      ids: e9030000
+    - guid: 03f4debef6f82ef43b174ff67987c532
+      ids: e9030000
+    - guid: 5fd1fed63457bc14abea612957703653
+      ids: 15000000
+    - guid: 6000c99975711fb4293b1047ef421ffe
+      ids: d5000000
+    - guid: 9094aa5ae2e324346997aa2ea9ad7930
+      ids: e9030000
+    - guid: 6f019b438186774469a582533e7e1bd3
+      ids: 73000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 775a74dc3a21a8a45822ed4ab6fc5597
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/
+    m_assetName: standing run back.fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/standing
+      run back.fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 333889
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: 775a74dc3a21a8a45822ed4ab6fc5597
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 770f848a43f436949bfe172dc02598a6
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Model/
+    m_assetName: akai_e_espiritu Variant.prefab
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Model/akai_e_espiritu
+      Variant.prefab
+    m_cacheStamp: 2
+    m_extension: .prefab
+    m_fileInfoHash: 
+    m_fileSize: 9678
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList:
+    - guid: d8490122d2177364f9011466dcda9a10
+      ids: e9030000
+    - guid: df28ff330199c9640b177d414be61211
+      ids: 5b000000
+    - guid: 22038b2c16b237542b15fca20b533588
+      ids: 73000000
+    - guid: da131c3960b4e724fb46f9a6b2dee647
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e73a58f6e2794ae7b1b7e50b7fb811b0
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/Fonts & Materials/
+    m_assetName: LiberationSans SDF - Drop Shadow.mat
+    m_assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF
+      - Drop Shadow.mat
+    m_cacheStamp: 2
+    m_extension: .mat
+    m_fileInfoHash: 
+    m_fileSize: 2975
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1551859814
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: fe393ace9b354375a9cb14cdbbc28be4
+      ids: 30000000
+    - guid: 8f586378b4e144a9851e7b34d9b748ee
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f7ada0af4f174f0694ca6a487b8f543d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF-Surface.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 4355
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 18dc0cd2c080841dea60987a38ce93fa
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/
+    m_assetName: UniversalRenderPipelineGlobalSettings.asset
+    m_assetPath: Assets/Settings/URP/UniversalRenderPipelineGlobalSettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1183
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1683889557
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 381dcb09d5029d14897e55f98031fca5
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Sprites/
+    m_assetName: EmojiOne Attribution.txt
+    m_assetPath: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    m_cacheStamp: 2
+    m_extension: .txt
+    m_fileInfoHash: 
+    m_fileSize: 187
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 48bb5f55d8670e349b6e614913f9d910
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_Bitmap-Custom-Atlas.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 3497
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 68e6db2ebdc24f95958faec2be5558d6
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 10600
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 78655c4b463da4f4f802867806d7a8ed
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/
+    m_assetName: AnimatorController
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/AnimatorController
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: df28ff330199c9640b177d414be61211
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c8d12adcee749c344b8117cf7c7eb912
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF-Mobile SSD.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 3071
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d8490122d2177364f9011466dcda9a10
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Model/
+    m_assetName: akai_e_espiritu.fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Model/akai_e_espiritu.fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 4198689
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: d8490122d2177364f9011466dcda9a10
+      ids: 
+    - guid: 55b036d76a7b1f34bb6e711add133b89
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d82c1b31c7e74239bff1220585707d2b
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/
+    m_assetName: LineBreaking Leading Characters.txt
+    m_assetPath: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    m_cacheStamp: 2
+    m_extension: .txt
+    m_fileInfoHash: 
+    m_fileSize: 95
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 091239b65cf0ef24687ff028f1a9c52f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing idle.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      idle.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 4896198
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3997e2241185407d80309a82f9148466
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMPro_Properties.cginc
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    m_cacheStamp: 2
+    m_extension: .cginc
+    m_fileInfoHash: 
+    m_fileSize: 2843
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 79459efec17a4d00a321bdcc27bbc385
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/Fonts & Materials/
+    m_assetName: LiberationSans SDF - Outline.mat
+    m_assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF
+      - Outline.mat
+    m_cacheStamp: 2
+    m_extension: .mat
+    m_fileInfoHash: 
+    m_fileSize: 2889
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1551859814
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: fe393ace9b354375a9cb14cdbbc28be4
+      ids: 30000000
+    - guid: 8f586378b4e144a9851e7b34d9b748ee
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d930090c0cd643c7b55f19a38538c162
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMPro_Surface.cginc
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    m_cacheStamp: 2
+    m_extension: .cginc
+    m_fileInfoHash: 
+    m_fileSize: 3563
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e9f693669af91aa45ad615fc681ed29f
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/
+    m_assetName: Shaders
+    m_assetPath: Assets/TextMesh Pro/Shaders
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 407bc68d299748449bbf7f48ee690f8d
+      ids: 
+    - guid: c334973cef89a9840b0b0c507e0377ab
+      ids: 
+    - guid: 3997e2241185407d80309a82f9148466
+      ids: 
+    - guid: d930090c0cd643c7b55f19a38538c162
+      ids: 
+    - guid: 48bb5f55d8670e349b6e614913f9d910
+      ids: 
+    - guid: 1e3b057af24249748ff873be7fafee47
+      ids: 
+    - guid: 128e987d567d4e2c824d754223b3f3b0
+      ids: 
+    - guid: dd89cf5b9246416f84610a006f916af7
+      ids: 
+    - guid: 14eb328de4b8eb245bb7cea29e4ac00b
+      ids: 
+    - guid: bc1ede39bf3643ee8e493720e4259791
+      ids: 
+    - guid: a02a7d8c237544f1962732b55a9aebf1
+      ids: 
+    - guid: c8d12adcee749c344b8117cf7c7eb912
+      ids: 
+    - guid: fe393ace9b354375a9cb14cdbbc28be4
+      ids: 
+    - guid: 85187c2149c549c5b33f0cdb02836b17
+      ids: 
+    - guid: f7ada0af4f174f0694ca6a487b8f543d
+      ids: 
+    - guid: 68e6db2ebdc24f95958faec2be5558d6
+      ids: 
+    - guid: cf81c85f95fe47e1a27f6ae460cf182c
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f952c082cb03451daed3ee968ac6c63e
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/Style Sheets/
+    m_assetName: Default Style Sheet.asset
+    m_assetPath: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 4953
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1523048586
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3aa60b9a9e4b2254881bd386345cc3a9
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/
+    m_assetName: standing run forward.fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/standing
+      run forward.fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 351137
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: 3aa60b9a9e4b2254881bd386345cc3a9
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4aecb92fff08436c8303b10eab8da368
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/
+    m_assetName: Style Sheets
+    m_assetPath: Assets/TextMesh Pro/Resources/Style Sheets
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: f952c082cb03451daed3ee968ac6c63e
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 5aa154c9d1d81be4dbfe9860faa2f16b
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/
+    m_assetName: Animations
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 091239b65cf0ef24687ff028f1a9c52f
+      ids: 
+    - guid: 0ff3d9a6c7c00854eb10f3d4e59e2364
+      ids: 
+    - guid: 413431bce08e40f44b4110240fc6f20f
+      ids: 
+    - guid: 8026b5758968d7244baa2a43151b7240
+      ids: 
+    - guid: abd01068a1e55fe4598287fa3400730d
+      ids: 
+    - guid: cc61cf47baef5e448bcf44a551d4df35
+      ids: 
+    - guid: d18445d91cf195240ac718ccaf85e49a
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 5a24932d481baf344a2be97aad58724e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/
+    m_assetName: 1_1 [Basic Atk 2].fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/1_1
+      [Basic Atk 2].fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 544128
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: 5a24932d481baf344a2be97aad58724e
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 6ab70aee4d56447429c680537fbf93ed
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/
+    m_assetName: Fonts
+    m_assetPath: Assets/TextMesh Pro/Fonts
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 6e59c59b81ab47f9b6ec5781fa725d2c
+      ids: 
+    - guid: e3265ab4bf004d28a9537516768c1c75
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ba97ce1d45beec34686a81b721683dcc
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/
+    m_assetName: 2 [Spin Attack].fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/2
+      [Spin Attack].fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 470704
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: ba97ce1d45beec34686a81b721683dcc
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: fade42e8bc714b018fac513c043d323b
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/
+    m_assetName: LineBreaking Following Characters.txt
+    m_assetPath: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    m_cacheStamp: 2
+    m_extension: .txt
+    m_fileInfoHash: 
+    m_fileSize: 269
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1b8d251f9af63b746bf2f7ffe00ebb9b
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Documentation/
+    m_assetName: TextMesh Pro User Guide 2016.pdf
+    m_assetPath: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    m_cacheStamp: 2
+    m_extension: .pdf
+    m_fileInfoHash: 
+    m_fileSize: 694398
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7b7fd9122c28c4d15b667c7040e3b3fd
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/URP/Settings/
+    m_assetName: URP-HighFidelity.asset
+    m_assetPath: Assets/Settings/URP/Settings/URP-HighFidelity.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 3469
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1686113043
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: c40be3174f62c4acf8c1216858c64956
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: abd01068a1e55fe4598287fa3400730d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing run right.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      run right.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 808133
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0c2e95c11c6e904428adadf6f48be8e1
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/
+    m_assetName: Icons
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: d16666e6283945b40be1564160898651
+      ids: 
+    - guid: ee3f5ed514abc5c47a83ed1c54a519c0
+      ids: 
+    - guid: 6000c99975711fb4293b1047ef421ffe
+      ids: 
+    - guid: dc609ed06ad96334b99034f63f3072ec
+      ids: 
+    - guid: e17203397c1e765488076e2eacf65116
+      ids: 
+    - guid: bcef3bb3e863a0b47bc29230664c187c
+      ids: 
+    - guid: 10e03e6e0b60fd04cbe436f56356e27e
+      ids: 
+    - guid: 131a6b21c8605f84396be9f6751fb6e3
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: bc1ede39bf3643ee8e493720e4259791
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF-Mobile Masking.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 7822
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: bcef3bb3e863a0b47bc29230664c187c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: icons_skills_runner.png
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/icons_skills_runner.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 23870
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: cc61cf47baef5e448bcf44a551d4df35
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing walk back.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      walk back.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 444120
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dc609ed06ad96334b99034f63f3072ec
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: icons_skills_fist.png
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/icons_skills_fist.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 23955
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: fce1616653f35b9419598e1570aa8f67
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Scripts/Runtime/
+    m_assetName: Simple Camera Follow.cs
+    m_assetPath: Assets/_gym/Scripts/Runtime/Simple Camera Follow.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 675
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2d7c4bcecc8e2944a866f08509787050
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/
+    m_assetName: standing walk forward.fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Locomotion/standing
+      walk forward.fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 369457
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: 2d7c4bcecc8e2944a866f08509787050
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dd55464c6fb4f454aa4244aeb7384a51
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/
+    m_assetName: Scripts
+    m_assetPath: Assets/_gym/Scripts
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 47fab1cd8086d5340970fc46c701be0c
+      ids: 
+    - guid: 5b2acd2f428ab1441b5d817d41174c42
+      ids: 
+    - guid: 8851dc8bda18f094899f2e33073034f8
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dd89cf5b9246416f84610a006f916af7
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF Overlay.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 10585
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1e3b057af24249748ff873be7fafee47
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_Bitmap-Mobile.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 3549
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2e498d1c8094910479dc3e1b768306a4
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/Fonts & Materials/
+    m_assetName: LiberationSans SDF - Fallback.asset
+    m_assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF
+      - Fallback.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 9266
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1613457916
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: fe393ace9b354375a9cb14cdbbc28be4
+      ids: 30000000
+    - guid: e3265ab4bf004d28a9537516768c1c75
+      ids: 80000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3e3a002257a0e674caf7d0591effe252
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/
+    m_assetName: UI
+    m_assetPath: Assets/_gym/Isometric Tests/UI
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 7f0e1c3795e334b57831aad4937e4a76
+      ids: 
+    - guid: 0c2e95c11c6e904428adadf6f48be8e1
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 6e59c59b81ab47f9b6ec5781fa725d2c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Fonts/
+    m_assetName: LiberationSans - OFL.txt
+    m_assetPath: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    m_cacheStamp: 2
+    m_extension: .txt
+    m_fileInfoHash: 
+    m_fileSize: 4469
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8e7e8f5a82a3a134e91c54efd2274ea9
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/
+    m_assetName: Documentation
+    m_assetPath: Assets/TextMesh Pro/Documentation
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 1b8d251f9af63b746bf2f7ffe00ebb9b
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ee3f5ed514abc5c47a83ed1c54a519c0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/Icons/
+    m_assetName: DemoSettings.lighting
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Icons/DemoSettings.lighting
+    m_cacheStamp: 2
+    m_extension: .lighting
+    m_fileInfoHash: 
+    m_fileSize: 1863
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: fe393ace9b354375a9cb14cdbbc28be4
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_SDF-Mobile.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 7674
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0ff3d9a6c7c00854eb10f3d4e59e2364
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animations/
+    m_assetName: standing run back.anim
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animations/standing
+      run back.anim
+    m_cacheStamp: 2
+    m_extension: .anim
+    m_fileInfoHash: 
+    m_fileSize: 714421
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3f5b5dff67a942289a9defa416b206f3
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/
+    m_assetName: TMP Settings.asset
+    m_assetPath: Assets/TextMesh Pro/Resources/TMP Settings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1683
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1613458167
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: 8f586378b4e144a9851e7b34d9b748ee
+      ids: 72000000
+    - guid: c41005c129ba4d66911b75229fd70b45
+      ids: 72000000
+    - guid: f952c082cb03451daed3ee968ac6c63e
+      ids: 72000000
+    - guid: d82c1b31c7e74239bff1220585707d2b
+      ids: 31000000
+    - guid: fade42e8bc714b018fac513c043d323b
+      ids: 31000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7f0e1c3795e334b57831aad4937e4a76
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/UI/
+    m_assetName: Art
+    m_assetPath: Assets/_gym/Isometric Tests/UI/Art
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 34ecf51bcd3f4424eafda7dafd885bd0
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8fb4c59477e532144b76b93a2cff5214
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/
+    m_assetName: 1 [Basic Atk 1].fbx
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Animation FBX/Attacks/1
+      [Basic Atk 1].fbx
+    m_cacheStamp: 2
+    m_extension: .fbx
+    m_fileInfoHash: 
+    m_fileSize: 664864
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 7
+    UseGUIDsList:
+    - guid: 8fb4c59477e532144b76b93a2cff5214
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8f05276190cf498a8153f6cbe761d4e6
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Sprites/
+    m_assetName: EmojiOne.json
+    m_assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.json
+    m_cacheStamp: 2
+    m_extension: .json
+    m_fileInfoHash: 
+    m_fileSize: 4122
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8f586378b4e144a9851e7b34d9b748ee
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Resources/Fonts & Materials/
+    m_assetName: LiberationSans SDF.asset
+    m_assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 2256862
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1555455476
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: fe393ace9b354375a9cb14cdbbc28be4
+      ids: 30000000
+    - guid: e3265ab4bf004d28a9537516768c1c75
+      ids: 80000000
+    - guid: 2e498d1c8094910479dc3e1b768306a4
+      ids: 72000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 9fefb55bd12064c4984d34f2aea37abd
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/Textures/
+    m_assetName: akai_diffuse.png
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/Textures/akai_diffuse.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3479930
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: cf81c85f95fe47e1a27f6ae460cf182c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Shaders/
+    m_assetName: TMP_Sprite.shader
+    m_assetPath: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    m_cacheStamp: 2
+    m_extension: .shader
+    m_fileInfoHash: 
+    m_fileSize: 2673
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: df28ff330199c9640b177d414be61211
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _gym/Isometric Tests/3D/Longbow Girl/AnimatorController/
+    m_assetName: BasicCharacter.controller
+    m_assetPath: Assets/_gym/Isometric Tests/3D/Longbow Girl/AnimatorController/BasicCharacter.controller
+    m_cacheStamp: 2
+    m_extension: .controller
+    m_fileInfoHash: 
+    m_fileSize: 8863
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList:
+    - guid: 446352a420a048246b363aee0934c27e
+      ids: 
+    - guid: 091239b65cf0ef24687ff028f1a9c52f
+      ids: 4a000000
+    - guid: d18445d91cf195240ac718ccaf85e49a
+      ids: 4a000000
+    - guid: 413431bce08e40f44b4110240fc6f20f
+      ids: 4a000000
+    - guid: 8fb4c59477e532144b76b93a2cff5214
+      ids: 
+    - guid: ba97ce1d45beec34686a81b721683dcc
+      ids: 
+    - guid: 5a24932d481baf344a2be97aad58724e
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dffef66376be4fa480fb02b19edbe903
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: TextMesh Pro/Sprites/
+    m_assetName: EmojiOne.png
+    m_assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 112319
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d82d45545b4cc8f42b22b285654ef50b
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: Resources
+    m_assetPath: Assets/Resources
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: dcfbce696cbc4d2469cca69b8f9cdfda
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dcfbce696cbc4d2469cca69b8f9cdfda
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Resources/
+    m_assetName: BillingMode.json
+    m_assetPath: Assets/Resources/BillingMode.json
+    m_cacheStamp: 2
+    m_extension: .json
+    m_fileInfoHash: 
+    m_fileSize: 29
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 1
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 38f4adf67080994488ecd92533f654bc
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: _MainGame
+    m_assetPath: Assets/_MainGame
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 2282f04d4a995374fb4e02a812d8a38d
+      ids: 
+    - guid: 9c53962885c2c4f449125a979d6ad240
+      ids: 
+    - guid: 80a8cc3454123d6438ade6c5799fa862
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2282f04d4a995374fb4e02a812d8a38d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/
+    m_assetName: Animations
+    m_assetPath: Assets/_MainGame/Animations
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: b85881e2f9356104b9bc2a808c55bb4d
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 80a8cc3454123d6438ade6c5799fa862
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/
+    m_assetName: Scripts
+    m_assetPath: Assets/_MainGame/Scripts
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 81e53fefc834e184da9f3cd887d8dce1
+      ids: 
+    - guid: ab6c3a69658d4fa4caf01680a721af48
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ab6c3a69658d4fa4caf01680a721af48
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/
+    m_assetName: Runtime
+    m_assetPath: Assets/_MainGame/Scripts/Runtime
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 8474ee1b40eb0ef41b766eb3873995c3
+      ids: 
+    - guid: 48f8602df599ed244b2aa0adbaa30b70
+      ids: 
+    - guid: cc5c8f8fb40b3254d9895b940f6d0906
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 9a730117f03613944b08b4463142f1ef
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/Monobehaviours/
+    m_assetName: UI
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours/UI
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: b2f7f9a7651346b46a2e7c96864e7dc4
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 48f8602df599ed244b2aa0adbaa30b70
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/
+    m_assetName: Monobehaviours
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 855e189c19a09d3479c3e51dd5aac16c
+      ids: 
+    - guid: 7ea3f83932412324c834d997bd64c7fd
+      ids: 
+    - guid: 9a730117f03613944b08b4463142f1ef
+      ids: 
+    - guid: 877a4db8e9607a54ab97efda27328d75
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1054f346b49bc774e84a30b01e173cd8
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_right_arraw.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_right_arraw.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3433
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1066be8e7b994b94c8a182b8dbe30705
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: warning_icon.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3979
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 50197f88423d447488d9bff2736b47dc
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Test/
+    m_assetName: ReporterScene.unity
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Test/ReporterScene.unity
+    m_cacheStamp: 2
+    m_extension: .unity
+    m_fileInfoHash: 
+    m_fileSize: 13842
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041267
+    state: 0
+    type: 3
+    UseGUIDsList:
+    - guid: fa24ce3e8b4a445479906686d9756911
+      ids: 73000000
+    - guid: 6767a180de870304caa2013b2772dd62
+      ids: 73000000
+    - guid: 600c02144c4813244abd262cbcbe8825
+      ids: 73000000
+    - guid: 112c6fcf56e349449ab2e6ad76b67816
+      ids: 1c000000
+    - guid: 4623f326a884a2546ab39078bf7822c3
+      ids: 1c000000
+    - guid: 3a6bc61a8319b1949ab9f1f2db1302b4
+      ids: 1c000000
+    - guid: 782e03669fa4a614e89ef56252134250
+      ids: 1c000000
+    - guid: ff4dfb29f203a174ab8e4c498afe908a
+      ids: 1c000000
+    - guid: 2bcdc012e7356f1449ce7d3a31dc458c
+      ids: 1c000000
+    - guid: f447d62f2dacf9843be7cbf168a3a9d0
+      ids: 1c000000
+    - guid: 6c91fc88ee6c791468318d85febfb48d
+      ids: 1c000000
+    - guid: a7561cd0a9f62a84e99bff1abce2a222
+      ids: 1c000000
+    - guid: 90b2f48155dc0e74f8e428561ac79da5
+      ids: 1c000000
+    - guid: 2954bef266e6d794aba08ceacc887a0f
+      ids: 1c000000
+    - guid: bfef37b5a26d2264798616d960451329
+      ids: 1c000000
+    - guid: b65e9be99974bc94eab5d6698811d0b8
+      ids: 1c000000
+    - guid: 8702be598dd9f504ca33be2afee2ca33
+      ids: 1c000000
+    - guid: e9011b1dc9256ad4d9c19a31c595f95f
+      ids: 1c000000
+    - guid: 999d31716332cc04eb4abc9c9270b0ca
+      ids: 1c000000
+    - guid: a0632a18e7c665641b94fea66506ab50
+      ids: 1c000000
+    - guid: e876b803a4dd5c5488078071d15aa9c0
+      ids: 1c000000
+    - guid: 1066be8e7b994b94c8a182b8dbe30705
+      ids: 1c000000
+    - guid: 7640ebf8b3a92124d821d3b4b8b3fd7e
+      ids: 1c000000
+    - guid: 8128d4f4c0193e34586f9631ef7d4787
+      ids: 1c000000
+    - guid: 2580a2e903691e44282e56ed6e0ff37a
+      ids: 1c000000
+    - guid: d27aad55b568c6544b0b95a95da44bc7
+      ids: 1c000000
+    - guid: 8ffbb44a2c3adae45913474e4fd487f5
+      ids: 1c000000
+    - guid: 17117a429b08e7e43b0b6c8421de69fe
+      ids: 1c000000
+    - guid: 1cc68832d00d3284a9324a4dc05be753
+      ids: 72000000
+    - guid: cac68c003767bec459aa60dc282ff67d
+      ids: 73000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 600c02144c4813244abd262cbcbe8825
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: Reporter.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Reporter.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 67861
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041268
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 90b2f48155dc0e74f8e428561ac79da5
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: fps.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/fps.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 4112
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 903d664043815ca4a9cc1f548bdd4b21
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: chart.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/chart.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 7209
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a0632a18e7c665641b94fea66506ab50
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: back.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/back.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 5831
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a0fcf46a2dc6a1b4b86e3f9927780fae
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: clear.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/clear.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 10707
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 112c6fcf56e349449ab2e6ad76b67816
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: clear.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/clear.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 8116
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 31f8aee177daaf645b9d0694e6fc50c5
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: scene.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/scene.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 11278
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 610107702c8806949869cffc95a67b57
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: screenShot21.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot21.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 142431
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8128d4f4c0193e34586f9631ef7d4787
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: bar.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/bar.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3098
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 91c6d29558bd35e4d9d9883614fa135b
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Test/
+    m_assetName: test2.unity
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Test/test2.unity
+    m_cacheStamp: 2
+    m_extension: .unity
+    m_fileInfoHash: 
+    m_fileSize: 9568
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041281
+    state: 0
+    type: 3
+    UseGUIDsList:
+    - guid: fa24ce3e8b4a445479906686d9756911
+      ids: 73000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0264958cc64273c46a257dd5bc018605
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/
+    m_assetName: Reporter
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 9d432a5d3d68af34aa3aefa93fc296c1
+      ids: 
+    - guid: 600c02144c4813244abd262cbcbe8825
+      ids: 
+    - guid: 8c866050b2c752d488112993fd0ddfce
+      ids: 
+    - guid: 6767a180de870304caa2013b2772dd62
+      ids: 
+    - guid: 15d89de0102fd6743afd4d727f43d481
+      ids: 
+    - guid: 7482c424dbd8a48489e4b2091f858a69
+      ids: 
+    - guid: 7c32ffadc35cc8045a81f08654eaf6cf
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 52620bf3edf5e4b4e8584ab2d516389d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: screenShot11.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot11.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 174067
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 82ec3e6201c354645a0338b570838083
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: screenShot3.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot3.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 42377
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: b2f7f9a7651346b46a2e7c96864e7dc4
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/Monobehaviours/UI/
+    m_assetName: ControlsView.cs
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours/UI/ControlsView.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1580
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d27aad55b568c6544b0b95a95da44bc7
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: even_log.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2843
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 639e2d9db58377f4997f7678b50e7e7a
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Editor/
+    m_assetName: ReporterEditor.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Editor/ReporterEditor.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 6432
+    m_inEditor: 1
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041269
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7482c424dbd8a48489e4b2091f858a69
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: Images
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: a0632a18e7c665641b94fea66506ab50
+      ids: 
+    - guid: 8128d4f4c0193e34586f9631ef7d4787
+      ids: 
+    - guid: 8702be598dd9f504ca33be2afee2ca33
+      ids: 
+    - guid: 2580a2e903691e44282e56ed6e0ff37a
+      ids: 
+    - guid: 903d664043815ca4a9cc1f548bdd4b21
+      ids: 
+    - guid: 112c6fcf56e349449ab2e6ad76b67816
+      ids: 
+    - guid: 3a6bc61a8319b1949ab9f1f2db1302b4
+      ids: 
+    - guid: b65e9be99974bc94eab5d6698811d0b8
+      ids: 
+    - guid: 4623f326a884a2546ab39078bf7822c3
+      ids: 
+    - guid: e9011b1dc9256ad4d9c19a31c595f95f
+      ids: 
+    - guid: 7f36d71624c630046b855909c497be17
+      ids: 
+    - guid: a7561cd0a9f62a84e99bff1abce2a222
+      ids: 
+    - guid: 7640ebf8b3a92124d821d3b4b8b3fd7e
+      ids: 
+    - guid: d27aad55b568c6544b0b95a95da44bc7
+      ids: 
+    - guid: 90b2f48155dc0e74f8e428561ac79da5
+      ids: 
+    - guid: 999d31716332cc04eb4abc9c9270b0ca
+      ids: 
+    - guid: 2954bef266e6d794aba08ceacc887a0f
+      ids: 
+    - guid: e876b803a4dd5c5488078071d15aa9c0
+      ids: 
+    - guid: f447d62f2dacf9843be7cbf168a3a9d0
+      ids: 
+    - guid: 8ffbb44a2c3adae45913474e4fd487f5
+      ids: 
+    - guid: 1cc68832d00d3284a9324a4dc05be753
+      ids: 
+    - guid: 4a4821d80a1fc774fb76eac6213544e7
+      ids: 
+    - guid: 564b866f40be55d40bb624f85197535c
+      ids: 
+    - guid: 65382a9375963d842a164495d6431d6d
+      ids: 
+    - guid: ea91678cb5fa4914d9a87d5882e46bf9
+      ids: 
+    - guid: 2b898d54956773c4ca8dac4becfff81d
+      ids: 
+    - guid: 1054f346b49bc774e84a30b01e173cd8
+      ids: 
+    - guid: 844af5f04b57ce841a17503f7e44ac44
+      ids: 
+    - guid: f44f16dd98d65e74e8001cf19cec1868
+      ids: 
+    - guid: 7eafdff7daf79fe4ea883940862a3b9e
+      ids: 
+    - guid: bfef37b5a26d2264798616d960451329
+      ids: 
+    - guid: 17117a429b08e7e43b0b6c8421de69fe
+      ids: 
+    - guid: 6c91fc88ee6c791468318d85febfb48d
+      ids: 
+    - guid: 782e03669fa4a614e89ef56252134250
+      ids: 
+    - guid: ff4dfb29f203a174ab8e4c498afe908a
+      ids: 
+    - guid: 2bcdc012e7356f1449ce7d3a31dc458c
+      ids: 
+    - guid: 1066be8e7b994b94c8a182b8dbe30705
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8474ee1b40eb0ef41b766eb3873995c3
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/
+    m_assetName: Thor.Runtime.asmdef
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Thor.Runtime.asmdef
+    m_cacheStamp: 2
+    m_extension: .asmdef
+    m_fileInfoHash: 
+    m_fileSize: 606
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 844af5f04b57ce841a17503f7e44ac44
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_up_arraw.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_up_arraw.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3458
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c4b3092b9223cfa4d80efc408b5a4152
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: collapse.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/collapse.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 7985
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f447d62f2dacf9843be7cbf168a3a9d0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: memory.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/memory.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 6373
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f44f16dd98d65e74e8001cf19cec1868
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_vertical_back.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2875
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 150439e7be78f8b40bb79efdc7d265ea
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: StreamingAssets/
+    m_assetName: build_info
+    m_assetPath: Assets/StreamingAssets/build_info
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 49
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 1
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 15d89de0102fd6743afd4d727f43d481
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: Editor
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Editor
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 639e2d9db58377f4997f7678b50e7e7a
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2580a2e903691e44282e56ed6e0ff37a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: button_active.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/button_active.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3056
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 45bcf5f5e1369544584f5974ae904739
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: info.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/info.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 10331
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 65b0df5f5ed78ca49aed5ff6dadae865
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: warning.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/warning.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 6740
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 65382a9375963d842a164495d6431d6d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_horizental_back.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_back.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2876
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: b502cdbcc667dce419bfb328dac18458
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/
+    m_assetName: ReporterDocumentation
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: a0fcf46a2dc6a1b4b86e3f9927780fae
+      ids: 
+    - guid: 3e140b615316ac34db80e51dd3c1a03f
+      ids: 
+    - guid: c4b3092b9223cfa4d80efc408b5a4152
+      ids: 
+    - guid: ecf03d11d96159d43ad6b7a2b60bd422
+      ids: 
+    - guid: 5764076715929d5479162c37a0736b90
+      ids: 
+    - guid: 8d6ce7703b81feb4a8cd4950e8de1675
+      ids: 
+    - guid: 8871d4a18c1a22f4e9fd02081f915fc1
+      ids: 
+    - guid: 45bcf5f5e1369544584f5974ae904739
+      ids: 
+    - guid: 679c1c3b742729b45a60849042799a26
+      ids: 
+    - guid: 31f8aee177daaf645b9d0694e6fc50c5
+      ids: 
+    - guid: 52620bf3edf5e4b4e8584ab2d516389d
+      ids: 
+    - guid: 610107702c8806949869cffc95a67b57
+      ids: 
+    - guid: 82ec3e6201c354645a0338b570838083
+      ids: 
+    - guid: 2fe284c4cad97754296ef1bb99985423
+      ids: 
+    - guid: dbae7700ad1eca246949933cce6ab4e1
+      ids: 
+    - guid: 65b0df5f5ed78ca49aed5ff6dadae865
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4623f326a884a2546ab39078bf7822c3
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: collapse.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3936
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 564b866f40be55d40bb624f85197535c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_down_arraw.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_down_arraw.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3466
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7640ebf8b3a92124d821d3b4b8b3fd7e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: error_icon.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 4298
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: b65e9be99974bc94eab5d6698811d0b8
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: close.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/close.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 5784
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 17117a429b08e7e43b0b6c8421de69fe
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: selected.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/selected.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2819
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 5764076715929d5479162c37a0736b90
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: fps.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/fps.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 9748
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 6767a180de870304caa2013b2772dd62
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: ReporterMessageReceiver.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 925
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041272
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 679c1c3b742729b45a60849042799a26
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: log.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/log.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 6909
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8702be598dd9f504ca33be2afee2ca33
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: buildFrom.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 6777
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a7561cd0a9f62a84e99bff1abce2a222
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: date.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/date.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 7184
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 782e03669fa4a614e89ef56252134250
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: timer_1.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 5753
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8871d4a18c1a22f4e9fd02081f915fc1
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: index.htm
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/index.htm
+    m_cacheStamp: 2
+    m_extension: .htm
+    m_fileInfoHash: 
+    m_fileSize: 7885
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e876b803a4dd5c5488078071d15aa9c0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: log_icon.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 4880
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2954bef266e6d794aba08ceacc887a0f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: info.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/info.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 9134
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7970120b28b7fc040bcf888bbe4e0062
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/
+    m_assetName: README.md
+    m_assetPath: Assets/Unity-Logs-Viewer/README.md
+    m_cacheStamp: 2
+    m_extension: .md
+    m_fileInfoHash: 
+    m_fileSize: 1345
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 999d31716332cc04eb4abc9c9270b0ca
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: graphicCard.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 10861
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e9011b1dc9256ad4d9c19a31c595f95f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: ComputerIcon.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 5924
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f9bfd26b505ac2c40b960a169bffc5be
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: StreamingAssets
+    m_assetPath: Assets/StreamingAssets
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 150439e7be78f8b40bb79efdc7d265ea
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3a6bc61a8319b1949ab9f1f2db1302b4
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: clearOnSceneLoaded.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 10569
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4a4821d80a1fc774fb76eac6213544e7
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: Save.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/Save.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 26883
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: cac68c003767bec459aa60dc282ff67d
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Test/
+    m_assetName: TestReporter.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Test/TestReporter.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 4907
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041286
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: da131c3960b4e724fb46f9a6b2dee647
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Settings/Input System/
+    m_assetName: InputMappings.inputactions
+    m_assetPath: Assets/Settings/Input System/InputMappings.inputactions
+    m_cacheStamp: 2
+    m_extension: .inputactions
+    m_fileInfoHash: 
+    m_fileSize: 26844
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ea91678cb5fa4914d9a87d5882e46bf9
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_horizental_thumb.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2882
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: fa24ce3e8b4a445479906686d9756911
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Test/
+    m_assetName: Rotate.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 269
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041290
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2b898d54956773c4ca8dac4becfff81d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_left_arraw.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_left_arraw.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 3423
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2bcdc012e7356f1449ce7d3a31dc458c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: user.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/user.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 7845
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dbae7700ad1eca246949933cce6ab4e1
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: time.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/time.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 10032
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1cf4e2e23b6e31d498242c9db1608ccd
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Test/
+    m_assetName: test1.unity
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Test/test1.unity
+    m_cacheStamp: 2
+    m_extension: .unity
+    m_fileInfoHash: 
+    m_fileSize: 9589
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041260
+    state: 0
+    type: 3
+    UseGUIDsList:
+    - guid: fa24ce3e8b4a445479906686d9756911
+      ids: 73000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1cc68832d00d3284a9324a4dc05be753
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: reporterScrollerSkin.guiskin
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin
+    m_cacheStamp: 2
+    m_extension: .guiskin
+    m_fileInfoHash: 
+    m_fileSize: 36930
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041259
+    state: 0
+    type: 5
+    UseGUIDsList:
+    - guid: 65382a9375963d842a164495d6431d6d
+      ids: 1c000000
+    - guid: ea91678cb5fa4914d9a87d5882e46bf9
+      ids: 1c000000
+    - guid: 2b898d54956773c4ca8dac4becfff81d
+      ids: 1c000000
+    - guid: 1054f346b49bc774e84a30b01e173cd8
+      ids: 1c000000
+    - guid: f44f16dd98d65e74e8001cf19cec1868
+      ids: 1c000000
+    - guid: 7eafdff7daf79fe4ea883940862a3b9e
+      ids: 1c000000
+    - guid: 844af5f04b57ce841a17503f7e44ac44
+      ids: 1c000000
+    - guid: 564b866f40be55d40bb624f85197535c
+      ids: 1c000000
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 6c91fc88ee6c791468318d85febfb48d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: software.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/software.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 12708
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7c32ffadc35cc8045a81f08654eaf6cf
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: Test
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Test
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 50197f88423d447488d9bff2736b47dc
+      ids: 
+    - guid: fa24ce3e8b4a445479906686d9756911
+      ids: 
+    - guid: 1cf4e2e23b6e31d498242c9db1608ccd
+      ids: 
+    - guid: 91c6d29558bd35e4d9d9883614fa135b
+      ids: 
+    - guid: cac68c003767bec459aa60dc282ff67d
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8c866050b2c752d488112993fd0ddfce
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: ReporterGUI.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/ReporterGUI.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 245
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041278
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: bc7f54579c2126d4dbdd47a33af7dd88
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: Input System
+    m_assetPath: Assets/Settings/Input System
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: da131c3960b4e724fb46f9a6b2dee647
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ecf03d11d96159d43ad6b7a2b60bd422
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: error.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/error.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 6244
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8d6ce7703b81feb4a8cd4950e8de1675
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: GCMem.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/GCMem.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 10175
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 9d432a5d3d68af34aa3aefa93fc296c1
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/
+    m_assetName: MultiKeyDictionary.cs
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 619
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1566041282
+    state: 0
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0e6a4d293ee9b544788962bc66f4b2e9
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/Monobehaviours/Managers/
+    m_assetName: InputManager.cs
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours/Managers/InputManager.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1750
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1efa664d220a27e4384040090d19c665
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: Unity-Logs-Viewer
+    m_assetPath: Assets/Unity-Logs-Viewer
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217964
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 7970120b28b7fc040bcf888bbe4e0062
+      ids: 
+    - guid: 0264958cc64273c46a257dd5bc018605
+      ids: 
+    - guid: b502cdbcc667dce419bfb328dac18458
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3e140b615316ac34db80e51dd3c1a03f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: clearOnNewScene.png
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/clearOnNewScene.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 13166
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 6ee6e3ddf3de99246a7805894036fbf2
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: InputSystem.inputsettings.asset
+    m_assetPath: Assets/InputSystem.inputsettings.asset
+    m_cacheStamp: 2
+    m_extension: .asset
+    m_fileInfoHash: 
+    m_fileSize: 1024
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 1
+    stamp: 1685440208
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7ea3f83932412324c834d997bd64c7fd
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/Monobehaviours/
+    m_assetName: Managers
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours/Managers
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList:
+    - guid: 0e6a4d293ee9b544788962bc66f4b2e9
+      ids: 
+    - guid: 114ecc4f46a5e4945aeb7c925aafc1ea
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7eafdff7daf79fe4ea883940862a3b9e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: scroller_vertical_thumb.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_thumb.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2886
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 2fe284c4cad97754296ef1bb99985423
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/ReporterDocumentation/
+    m_assetName: style.css
+    m_assetPath: Assets/Unity-Logs-Viewer/ReporterDocumentation/style.css
+    m_cacheStamp: 2
+    m_extension: .css
+    m_fileInfoHash: 
+    m_fileSize: 54428
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7f36d71624c630046b855909c497be17
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: copy.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/copy.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 5250
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8ffbb44a2c3adae45913474e4fd487f5
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: odd_log.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2826
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: bfef37b5a26d2264798616d960451329
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: search.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/search.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 2446
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ff4dfb29f203a174ab8e4c498afe908a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: Unity-Logs-Viewer/Reporter/Images/
+    m_assetName: UnityIcon.png
+    m_assetPath: Assets/Unity-Logs-Viewer/Reporter/Images/UnityIcon.png
+    m_cacheStamp: 2
+    m_extension: .png
+    m_fileInfoHash: 
+    m_fileSize: 7213
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 30f674d88470a814e8648e216b61b9ef
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/
+    m_assetName: Sticks
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 42844a4fccbd54746b90cade4ff70f73
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/Sticks/
+    m_assetName: VariableJoystick.cs
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks/VariableJoystick.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 2279
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: d41e4075f56d1e1438b3af3673ec6081
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/
+    m_assetName: Prefabs
+    m_assetPath: Assets/_MainGame/Prefabs
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 45977bbae16431c46a013576a1aea384
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/Sticks/
+    m_assetName: FixedJoystick.cs
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks/FixedJoystick.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 185
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 56fae09712773584fb63896d473a98ee
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Prefabs/Joysticks/
+    m_assetName: Dynamic Joystick.prefab
+    m_assetPath: Assets/_MainGame/Prefabs/Joysticks/Dynamic Joystick.prefab
+    m_cacheStamp: 2
+    m_extension: .prefab
+    m_fileInfoHash: 
+    m_fileSize: 7363
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: b9fca4100a7477741b3973b4ff2c405f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/Sticks/
+    m_assetName: Joystick.cs
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks/Joystick.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 7395
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7a47f546fc70ec8428172694e78e4288
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/Sticks/
+    m_assetName: FloatingJoystick.cs
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks/FloatingJoystick.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 842
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: aaa2c939c0359ac4dbce3f49e8b90252
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Prefabs/Joysticks/
+    m_assetName: Fixed Joystick.prefab
+    m_assetPath: Assets/_MainGame/Prefabs/Joysticks/Fixed Joystick.prefab
+    m_cacheStamp: 2
+    m_extension: .prefab
+    m_fileInfoHash: 
+    m_fileSize: 5085
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ba0d0e7a039f526499c356a3c5cd6d3f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/Sticks/
+    m_assetName: DynamicJoystick.cs
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks/DynamicJoystick.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1484
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ec536a7718376554185e4a856d5ae230
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Prefabs/Joysticks/
+    m_assetName: Variable Joystick.prefab
+    m_assetPath: Assets/_MainGame/Prefabs/Joysticks/Variable Joystick.prefab
+    m_cacheStamp: 2
+    m_extension: .prefab
+    m_fileInfoHash: 
+    m_fileSize: 7382
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 0d230cc8be529a542a08cb878ab14b18
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Prefabs/Joysticks/
+    m_assetName: Floating Joystick.prefab
+    m_assetPath: Assets/_MainGame/Prefabs/Joysticks/Floating Joystick.prefab
+    m_cacheStamp: 2
+    m_extension: .prefab
+    m_fileInfoHash: 
+    m_fileSize: 7345
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 5
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 375dfa55a3e3df3418cc44ab1dae525e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/
+    m_assetName: TouchScreenDevice
+    m_assetPath: Assets/_InputManagement/Runtime/TouchScreenDevice
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 36196c4d40aabeb4e971620d5a987f9c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/TouchScreenDevice/
+    m_assetName: TouchScreenPad.cs
+    m_assetPath: Assets/_InputManagement/Runtime/TouchScreenDevice/TouchScreenPad.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 17300
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4c486cc392720b545ae17c61f9d80c3f
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/TouchScreenDevice/
+    m_assetName: DeviceConnector.cs
+    m_assetPath: Assets/_InputManagement/Runtime/TouchScreenDevice/DeviceConnector.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1545
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 504ab3eebc43ec747abdcd5c65ebfbbd
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: Singleton.cs
+    m_assetPath: Assets/_CommonDS/Singleton.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1295
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: b0cce7d3190a0bf4295eda2083a57d5b
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/
+    m_assetName: EditorExtensions
+    m_assetPath: Assets/_InputManagement/EditorExtensions
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e06ee9d9e532b4b4891a1735cb47cd0e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: TimeSliceCounter.cs
+    m_assetPath: Assets/_CommonDS/TimeSliceCounter.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 2133
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f0b4db1d387dcce4ea1fe526318b5e2c
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: CoroutineRunner.cs
+    m_assetPath: Assets/_CommonDS/CoroutineRunner.cs
+    m_cacheStamp: 0
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 2397
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 71b43163d60e6b844889f69a7271bb7d
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/OrderedInitializer/
+    m_assetName: InitializationTarget.cs
+    m_assetPath: Assets/_CommonDS/OrderedInitializer/InitializationTarget.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1763
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: a1b67ed5d2fbebc44b824d054be0afd3
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/EditorAccessors/
+    m_assetName: FPS
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/EditorAccessors/FPS
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f141bf19c4b8c5a4a827b0b95041b78e
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/Monobehaviours/UI/
+    m_assetName: DeviceChangedView.cs
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours/UI/DeviceChangedView.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1392
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e20a15c9e82e76a4f9ce158097b26f49
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: SerializationServices.cs
+    m_assetPath: Assets/_CommonDS/SerializationServices.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 552
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f2aed5025a549d642b059713fe437baf
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Prefabs/
+    m_assetName: Joysticks
+    m_assetPath: Assets/_MainGame/Prefabs/Joysticks
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 33f181e638c2b0649acefd7e68641ffc
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/EditorAccessors/FPS/
+    m_assetName: HUDFPS.cs
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/EditorAccessors/FPS/HUDFPS.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 2426
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 43f14e433f2d6ec4cb6ac3a999f3d2a3
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/
+    m_assetName: DeviceIdentityHandler.cs
+    m_assetPath: Assets/_InputManagement/Runtime/DeviceIdentityHandler.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 10896
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 24cabd1458f61fa45a188c33c9d78c61
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: _InputManagement
+    m_assetPath: Assets/_InputManagement
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 1532ab53a6d6a42489e38cdedd996edb
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/Monobehaviours/Managers/
+    m_assetName: InitialSettingsManager.cs
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/Monobehaviours/Managers/InitialSettingsManager.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1639
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 75912814433129c4ba948e78e6e9b3b0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: 
+    m_assetName: _CommonDS
+    m_assetPath: Assets/_CommonDS
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 271e063cf19bda9468ce29a3f6ef62d4
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/EditorAccessors/
+    m_assetName: OverlapGizmo
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/EditorAccessors/OverlapGizmo
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 677dd9917251b0a46aab4b3edb2713bb
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/OrderedInitializer/
+    m_assetName: OrderedInitializer.cs
+    m_assetPath: Assets/_CommonDS/OrderedInitializer/OrderedInitializer.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 2750
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: f8c50ae45fba4b846808e8175f12c728
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: OrderedInitializer
+    m_assetPath: Assets/_CommonDS/OrderedInitializer
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: c9e77abd242b52946b272f5e169bbaa6
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Settings/
+    m_assetName: URP
+    m_assetPath: Assets/Settings/URP
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686217963
+    state: 0
+    type: 1
+    UseGUIDsList:
+    - guid: 18dc0cd2c080841dea60987a38ce93fa
+      ids: 
+    - guid: 709f11a7f3c4041caa4ef136ea32d874
+      ids: 
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3a920274aa66f734c8b887a92dccbec6
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/
+    m_assetName: EditorAccessors
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/EditorAccessors
+    m_cacheStamp: 0
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7ab0db56732d68e47ab14876ee513c48
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/EditorExtensions/Editor/
+    m_assetName: DeviceConnectorEditorExtension.cs
+    m_assetPath: Assets/_InputManagement/EditorExtensions/Editor/DeviceConnectorEditorExtension.cs
+    m_cacheStamp: 0
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1869
+    m_inEditor: 1
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 3b4b65a1d6df36743bda5a9c7a8aee88
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: Constants.cs
+    m_assetPath: Assets/_CommonDS/Constants.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 1044
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 5be075fe508dd9a44bdf16b6ed64bca0
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/
+    m_assetName: Thor.InputManagement.asmdef
+    m_assetPath: Assets/_InputManagement/Runtime/Thor.InputManagement.asmdef
+    m_cacheStamp: 2
+    m_extension: .asmdef
+    m_fileInfoHash: 
+    m_fileSize: 426
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 7b546ecb1c03b9d42a3f55e1260ff5b1
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: IMonoInterface.cs
+    m_assetPath: Assets/_CommonDS/IMonoInterface.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 373
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: fb7db56a89af51f4c96528cdab22e412
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/EditorExtensions/
+    m_assetName: Editor
+    m_assetPath: Assets/_InputManagement/EditorExtensions/Editor
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4c96115ab7ed1e542ae71977167c149a
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: Snippets.cs
+    m_assetPath: Assets/_CommonDS/Snippets.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 3612
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: dcb320cfc85fe1443af051fdb2503cd6
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _MainGame/Scripts/Runtime/EditorAccessors/OverlapGizmo/
+    m_assetName: OverlapGizmo.cs
+    m_assetPath: Assets/_MainGame/Scripts/Runtime/EditorAccessors/OverlapGizmo/OverlapGizmo.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 5624
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 4d0cfb2f8ae2b8d4da3cf78c294c3dfa
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/
+    m_assetName: Runtime
+    m_assetPath: Assets/_InputManagement/Runtime
+    m_cacheStamp: 2
+    m_extension: 
+    m_fileInfoHash: 
+    m_fileSize: 0
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 1
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: 8e099bd44078289418f8751c0958dcbb
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/EditorExtensions/
+    m_assetName: Thor.InputMangement.EditorExtensions.asmdef
+    m_assetPath: Assets/_InputManagement/EditorExtensions/Thor.InputMangement.EditorExtensions.asmdef
+    m_cacheStamp: 2
+    m_extension: .asmdef
+    m_fileInfoHash: 
+    m_fileSize: 493
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: ee93264f14a27f74d97b54f6c2910ccc
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _InputManagement/Runtime/Sticks/
+    m_assetName: JoystickAccessor.cs
+    m_assetPath: Assets/_InputManagement/Runtime/Sticks/JoystickAccessor.cs
+    m_cacheStamp: 2
+    m_extension: .cs
+    m_fileInfoHash: 
+    m_fileSize: 2924
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 2
+    type: 2
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: af774b380554c974291c0e542b841463
+    loaded: 0
+    loadInfoTS: 0
+    m_assetFolder: _CommonDS/
+    m_assetName: Thor.CommonDS.asmdef
+    m_assetPath: Assets/_CommonDS/Thor.CommonDS.asmdef
+    m_cacheStamp: 2
+    m_extension: .asmdef
+    m_fileInfoHash: 
+    m_fileSize: 354
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 0
+    state: 0
+    type: 9
+    UseGUIDsList: []
+  - _isExcluded: 0
+    excludeTS: 0
+    guid: e1098d3af0773d6488f3a42ffdf172fb
+    loaded: 1
+    loadInfoTS: 0
+    m_assetFolder: Art/Materials/
+    m_assetName: New Material.mat
+    m_assetPath: Assets/Art/Materials/New Material.mat
+    m_cacheStamp: 0
+    m_extension: .mat
+    m_fileInfoHash: 
+    m_fileSize: 3623
+    m_inEditor: 0
+    m_inPlugins: 0
+    m_inResources: 0
+    m_inStreamingAsset: 0
+    m_isAssetFile: 0
+    stamp: 1686219145
+    state: 0
+    type: 5
+    UseGUIDsList: []
+  frameSkipped: 0
+  priority: 5
+  ready: 0
+  setting:
+    alternateColor: 1
+    excludeTypes: 0
+    groupMode: 0
+    listIgnore: []
+    pingRow: 1
+    referenceCount: 1
+    rowColor:
+      rgba: 201326592
+    ScanColor:
+      rgba: 4284926976
+    SelectedColor:
+      r: 0
+      g: 0
+      b: 1
+      a: 0.25
+    showFileSize: 0
+    showSelection: 0
+    showUsedByClassed: 1
+    sortMode: 2
+    treeIndent: 10
+  timeStamp: 1686218893
+  <Dirty>k__BackingField: 0
