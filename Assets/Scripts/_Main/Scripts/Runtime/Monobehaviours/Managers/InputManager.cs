@@ -55,9 +55,9 @@ namespace InputManagement
         private void InitializeDeviceIdentityHandler()
         {
             deviceIdentityHandler.Init(inputActionAsset,
-                               () => { Invokee(onSwitchedToGamepad); },
-                               () => { Invokee(onSwtichedToKeyboard); },
-                               () => { Invokee(onSwtichedToTouchpad); });
+                               () => { Debug.Log($"<color=red> Im Gamepad </color>");  Invokee(onSwitchedToGamepad); },
+                               () => { Debug.Log($"<color=red> Im keyboard </color>"); Invokee(onSwtichedToKeyboard); },
+                               () => { Debug.Log($"<color=red> Im Touchpad </color>"); Invokee(onSwtichedToTouchpad); });
         }
 
         private void Invokee(List<Action> actions)

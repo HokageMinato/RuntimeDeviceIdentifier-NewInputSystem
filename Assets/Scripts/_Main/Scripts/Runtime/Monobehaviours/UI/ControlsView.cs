@@ -45,12 +45,12 @@ namespace InputManagement
         #region PRIVATE_METHODS
         private void OnSwitchedToNonTouchDevice()
         {
-            ToggleView(true);
+            ToggleView(false);
         }
 
         private void OnSwitchedToTouchDevice()
         {
-            ToggleView(false);
+            ToggleView(true);
         }
 
         private void ToggleView(bool value) 

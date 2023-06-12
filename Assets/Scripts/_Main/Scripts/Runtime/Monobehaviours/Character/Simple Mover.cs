@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Debug = UnityEngine.Debug;
-using InputManagement;
 
 public enum ENTITY_TYPE 
 { 
@@ -46,6 +45,7 @@ public class SimpleMover : MonoBehaviour
     {
         angleDifferenceInY = angleDifferenceInYAxis;
         playerInputMap = inputActionAsset.FindActionMap("Player", true);
+
     }
 
     private Vector2 GetPlayerNavigationVector() 
